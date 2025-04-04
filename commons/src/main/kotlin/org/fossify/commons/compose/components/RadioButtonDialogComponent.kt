@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.components
+package com.adika.commons.compose.components
 
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
@@ -10,11 +10,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.alert_dialog.dialogTextColor
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.alert_dialog.dialogTextColor
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
 
 @Composable
 fun RadioButtonDialogComponent(

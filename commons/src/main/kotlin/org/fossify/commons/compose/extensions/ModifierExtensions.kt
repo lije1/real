@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import androidx.compose.ui.Modifier
 

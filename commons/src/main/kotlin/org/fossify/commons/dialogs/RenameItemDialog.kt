@@ -1,10 +1,10 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.DialogRenameItemBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.DialogRenameItemBinding
+import com.adika.commons.extensions.*
 
 class RenameItemDialog(val activity: BaseSimpleActivity, val path: String, val callback: (newPath: String) -> Unit) {
     init {

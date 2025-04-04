@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.animation.AnimationUtils
 import androidx.compose.animation.core.*
@@ -25,16 +25,16 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.databinding.DialogCallConfirmationBinding
-import org.fossify.commons.extensions.applyColorFilter
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.databinding.DialogCallConfirmationBinding
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.setupDialogStuff
 
 class CallConfirmationDialog(val activity: BaseSimpleActivity, val callee: String, private val callback: () -> Unit) {
     private var view = DialogCallConfirmationBinding.inflate(activity.layoutInflater, null, false)

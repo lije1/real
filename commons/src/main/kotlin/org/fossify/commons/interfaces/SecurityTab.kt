@@ -1,7 +1,7 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
 import androidx.biometric.auth.AuthPromptHost
-import org.fossify.commons.views.MyScrollView
+import com.adika.commons.views.MyScrollView
 
 interface SecurityTab {
     fun initTab(

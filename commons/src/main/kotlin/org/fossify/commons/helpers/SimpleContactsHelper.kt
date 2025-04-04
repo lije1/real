@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
@@ -24,10 +24,10 @@ import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
-import org.fossify.commons.R
-import org.fossify.commons.extensions.*
-import org.fossify.commons.models.PhoneNumber
-import org.fossify.commons.models.SimpleContact
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.SimpleContact
 
 class SimpleContactsHelper(val context: Context) {
     fun getAvailableContacts(favoritesOnly: Boolean, callback: (ArrayList<SimpleContact>) -> Unit) {

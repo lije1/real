@@ -1001,12 +1001,12 @@
     </plurals>
     <string name="donate_please"><![CDATA[
  Dia duit, <br><br>
- tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann, tacaigh lena fhorbairt tríd an aip <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Go raibh maith agat</a> a cheannach , cuirfidh sé cosc ar an dialóg seo a thaispeáint arís.<br><br>
+ tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann, tacaigh lena fhorbairt tríd an aip <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Go raibh maith agat</a> a cheannach , cuirfidh sé cosc ar an dialóg seo a thaispeáint arís.<br><br>
  Go raibh maith agat!
  ]]></string>
-    <string name="donate_new">Dia duit,&lt;br&gt;&lt;br&gt;tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann agus níl do shonraí á mbailiú againn ach an oiread, tacaigh lena fhorbairt trí &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tú&lt;/a&gt;. Beidh gach gné aipe agat freisin, lena n-áirítear saincheapadh dathanna díghlasáilte.&lt;br&gt;&lt;br&gt;Go raibh maith agat!</string>
-    <string name="donate_short">Tacaigh linn trí &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; a cheannach le do thoil, díghlasálfaidh sé gnéithe uile na haipe freisin lena n-áirítear dath saincheaptha.</string>
-    <string name="features_locked">Tá an ghné seo faoi ghlas, le do thoil ceannach &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; as an aip iomlán a dhíghlasáil.&lt;br &lt;br&gt;Is íocaíocht aonuaire amháin é agus mura mbeidh tú sásta, is féidir linn aisíocaíocht a thabhairt duit.</string>
+    <string name="donate_new">Dia duit,&lt;br&gt;&lt;br&gt;tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann agus níl do shonraí á mbailiú againn ach an oiread, tacaigh lena fhorbairt trí &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank Tú&lt;/a&gt;. Beidh gach gné aipe agat freisin, lena n-áirítear saincheapadh dathanna díghlasáilte.&lt;br&gt;&lt;br&gt;Go raibh maith agat!</string>
+    <string name="donate_short">Tacaigh linn trí &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; a cheannach le do thoil, díghlasálfaidh sé gnéithe uile na haipe freisin lena n-áirítear dath saincheaptha.</string>
+    <string name="features_locked">Tá an ghné seo faoi ghlas, le do thoil ceannach &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; as an aip iomlán a dhíghlasáil.&lt;br &lt;br&gt;Is íocaíocht aonuaire amháin é agus mura mbeidh tú sásta, is féidir linn aisíocaíocht a thabhairt duit.</string>
     <string name="new_app"><![CDATA[
  Hey, <br><br>
  ach tú a chur ar an eolas gur eisíodh roinnt aipeanna nua le déanaí:<br><br>
@@ -1047,7 +1047,7 @@
         <item quantity="other">%d míreanna á scriosadh</item>
     </plurals>
     <string name="purchase_thank_you"><![CDATA[
- Ceannaigh <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Go raibh maith agat le Fossify</a> chun an fheidhm seo a dhíghlasáil agus tacú leis an bhforbairt. Go raibh maith agat!
+ Ceannaigh <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Go raibh maith agat le Fossify</a> chun an fheidhm seo a dhíghlasáil agus tacú leis an bhforbairt. Go raibh maith agat!
  ]]></string>
     <string name="faq_9_text_commons">Tá bealaí éagsúla ann chun é sin a dhéanamh. Tá an chéad cheann ag tosú ar an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin cliceáil gearr ar dhaoine eile chun iad a roghnú. Tá an dara bealach cosúil le míreanna a roghnú ar ríomhairí pearsanta le luch, ach tús a chur leis an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin le do mhéar fós síos tarraing é thar mhíreanna eile le roghnú. Is é an tríú bealach chun míreanna iolracha a roghnú ná mír amháin a bhrú le fada, ansin brú fada ar cheann eile agus roghnaítear gach rud idir eatarthu. Más mian leat gach mír a roghnú, brúigh mír amháin le fada, ansin cliceáil ar an gcuntar míre roghnaithe ag an gcúinne ag barr na láimhe clé. Roghnóidh sé sin gach rud nó díroghnaigh é.</string>
     <string name="faq_10_title_commons">Cheannaigh mé an aip, ach ní féidir liom é a íoslódáil ar ghléas eile.</string>
@@ -1152,7 +1152,7 @@
     <string name="welcome_to_app_name">Fáilte go %s!</string>
     <string name="pro_app_refund">Ná déan dearmad go n-aisíocfar thú go huathoibríoch má dhíshuiteálann tú aon fheidhmchlár íoctha laistigh de 2 uair an chloig. Más mian leat aisíocaíocht ag am ar bith ina dhiaidh sin, déan teagmháil linn ag hello@fossify.org agus gheobhaidh tú é. Fágann sin go bhfuil sé éasca triail a bhaint as :)</string>
     <string name="trial_end_description">Déan uasghrádú ar an leagan Pro chun taitneamh a bhaint as an aip go hiomlán.\n\nNí mór duit ach íoc as uair amháin ar feadh an tsaoil agus mura mbeidh tú sásta, is féidir leat é a dhíshuiteáil agus aisíocaíocht a fháil.\n\nFéach tú ann :)</string>
-    <string name="deprecated_app">DEPRECATED: Ní choinnítear an leagan seo den aip a thuilleadh, faigh an leagan Pro ag https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">DEPRECATED: Ní choinnítear an leagan seo den aip a thuilleadh, faigh an leagan Pro ag https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="copyright">in aghaidh %1$s\nCóipcheart © Fossify %2$d</string>
     <string name="sms_messenger_short">Teachtaireachtaí SMS</string>
     <string name="cryptocurrency">Criptea-airgeadra</string>

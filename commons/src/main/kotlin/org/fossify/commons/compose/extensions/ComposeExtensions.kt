@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import android.app.Activity
 import android.content.Context
@@ -24,12 +24,12 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.lifecycle.compose.LifecycleStartEffect
-import org.fossify.commons.R
-import org.fossify.commons.compose.system_ui_controller.rememberSystemUiController
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.isLitWell
-import org.fossify.commons.extensions.darkenColor
-import org.fossify.commons.extensions.launchViewIntent
+import com.adika.commons.R
+import com.adika.commons.compose.system_ui_controller.rememberSystemUiController
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.isLitWell
+import com.adika.commons.extensions.darkenColor
+import com.adika.commons.extensions.launchViewIntent
 
 fun Context.getActivity(): Activity {
     return when (this) {

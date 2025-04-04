@@ -1,4 +1,4 @@
-package org.fossify.commons.samples.activities
+package com.adika.commons.samples.activities
 
 import android.os.Bundle
 import android.os.Environment
@@ -16,17 +16,17 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.bottom_sheet.BottomSheetDialogState
-import org.fossify.commons.compose.bottom_sheet.rememberBottomSheetDialogState
-import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.extensions.rateStarsRedirectAndThankYou
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.*
-import org.fossify.commons.extensions.*
-import org.fossify.commons.models.*
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.bottom_sheet.BottomSheetDialogState
+import com.adika.commons.compose.bottom_sheet.rememberBottomSheetDialogState
+import com.adika.commons.compose.extensions.config
+import com.adika.commons.compose.extensions.rateStarsRedirectAndThankYou
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.dialogs.*
+import com.adika.commons.extensions.*
+import com.adika.commons.models.*
 
 class TestDialogActivity : ComponentActivity() {
 

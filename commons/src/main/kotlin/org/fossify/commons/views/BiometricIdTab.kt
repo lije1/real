@@ -1,14 +1,14 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.biometric.auth.AuthPromptHost
 import androidx.constraintlayout.widget.ConstraintLayout
-import org.fossify.commons.databinding.TabBiometricIdBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.DARK_GREY
-import org.fossify.commons.interfaces.HashListener
-import org.fossify.commons.interfaces.SecurityTab
+import com.adika.commons.databinding.TabBiometricIdBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.DARK_GREY
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
 
 class BiometricIdTab(context: Context, attrs: AttributeSet) : ConstraintLayout(context, attrs), SecurityTab {
     private lateinit var hashListener: HashListener

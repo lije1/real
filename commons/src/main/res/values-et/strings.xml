@@ -1007,14 +1007,14 @@
         <item quantity="one">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
         <item quantity="other">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
     </plurals>
-    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
     <string name="exif">EXIF</string>
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dt</string>
     <string name="friday_letter">R</string>
-    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
     <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
     <string name="contributors_label"><![CDATA[
             Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
@@ -1036,8 +1036,8 @@
     <string name="thursday_short">Neljap</string>
     <string name="friday_short">Reede</string>
     <string name="saturday_short">Laup</string>
-    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
-    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
     <string name="translation_english">inglise keel</string>
     <string name="translation_bengali">bengali keel</string>
     <string name="translation_hindi">hindi keel</string>
@@ -1052,7 +1052,7 @@
     <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
     <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Aitäh juba ette!
+            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Suur Tänu</a>. Aitäh juba ette!
         ]]></string>
     <string name="deletion_confirmation_short">Kas kustutame %s?</string>
     <string name="pin">PIN</string>
@@ -1080,7 +1080,7 @@
     <string name="sunday_short">Pühap</string>
     <string name="donate_please"><![CDATA[
             Tere,<br><br>
-            loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a> ja samaga väldid selle vaate uuesti kuvamist.<br><br>
+            loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Suur Tänu</a> ja samaga väldid selle vaate uuesti kuvamist.<br><br>
             Täname!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[

@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme

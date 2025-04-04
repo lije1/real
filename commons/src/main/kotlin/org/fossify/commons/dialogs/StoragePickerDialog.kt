@@ -1,14 +1,14 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.DialogRadioGroupBinding
-import org.fossify.commons.databinding.RadioButtonBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.DialogRadioGroupBinding
+import com.adika.commons.databinding.RadioButtonBinding
+import com.adika.commons.extensions.*
 
 /**
  * A dialog for choosing between internal, root, SD card (optional) storage

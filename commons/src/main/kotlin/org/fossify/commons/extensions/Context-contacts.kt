@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.annotation.TargetApi
 import android.content.Context
@@ -10,19 +10,19 @@ import android.os.Handler
 import android.os.Looper
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databases.ContactsDatabase
-import org.fossify.commons.dialogs.CallConfirmationDialog
-import org.fossify.commons.dialogs.RadioGroupDialog
-import org.fossify.commons.helpers.*
-import org.fossify.commons.interfaces.ContactsDao
-import org.fossify.commons.interfaces.GroupsDao
-import org.fossify.commons.models.RadioItem
-import org.fossify.commons.models.contacts.Contact
-import org.fossify.commons.models.contacts.ContactSource
-import org.fossify.commons.models.contacts.Organization
-import org.fossify.commons.models.contacts.SocialAction
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databases.ContactsDatabase
+import com.adika.commons.dialogs.CallConfirmationDialog
+import com.adika.commons.dialogs.RadioGroupDialog
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.ContactsDao
+import com.adika.commons.interfaces.GroupsDao
+import com.adika.commons.models.RadioItem
+import com.adika.commons.models.contacts.Contact
+import com.adika.commons.models.contacts.ContactSource
+import com.adika.commons.models.contacts.Organization
+import com.adika.commons.models.contacts.SocialAction
 import java.io.File
 
 val Context.contactsDB: ContactsDao get() = ContactsDatabase.getInstance(applicationContext).ContactsDao()

@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Text
@@ -8,15 +8,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.databinding.DialogOpenDeviceSettingsBinding
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.openDeviceSettings
-import org.fossify.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.databinding.DialogOpenDeviceSettingsBinding
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.openDeviceSettings
+import com.adika.commons.extensions.setupDialogStuff
 
 class OpenDeviceSettingsDialog(val activity: BaseSimpleActivity, message: String) {
 

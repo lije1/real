@@ -1,9 +1,9 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.view.View
 import android.view.Window
-import org.fossify.commons.helpers.DARK_GREY
-import org.fossify.commons.helpers.isOreoPlus
+import com.adika.commons.helpers.DARK_GREY
+import com.adika.commons.helpers.isOreoPlus
 
 fun Window.updateStatusBarColors(backgroundColor: Int) {
     statusBarColor = backgroundColor

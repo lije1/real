@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.components
+package com.adika.commons.compose.components
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Indication
@@ -14,10 +14,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
 
 private val dropDownPaddings = Modifier.padding(horizontal = 14.dp, vertical = 16.dp)
 
@@ -81,6 +81,6 @@ fun SimpleDropDownMenuItem(
 @Composable
 private fun SimpleDropDownMenuItemPreview() {
     AppThemeSurface {
-        SimpleDropDownMenuItem(text = org.fossify.commons.R.string.copy, onClick = {})
+        SimpleDropDownMenuItem(text = com.adika.commons.R.string.copy, onClick = {})
     }
 }

@@ -1,4 +1,4 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
 import android.view.ActionMode
 

@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager

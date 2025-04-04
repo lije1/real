@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -9,14 +9,14 @@ import android.widget.RadioGroup
 import androidx.appcompat.app.AlertDialog
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.DialogSelectAlarmSoundBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.SILENT
-import org.fossify.commons.models.AlarmSound
-import org.fossify.commons.models.RadioItem
-import org.fossify.commons.views.MyCompatRadioButton
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.DialogSelectAlarmSoundBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.SILENT
+import com.adika.commons.models.AlarmSound
+import com.adika.commons.models.RadioItem
+import com.adika.commons.views.MyCompatRadioButton
 
 class SelectAlarmSoundDialog(
     val activity: BaseSimpleActivity, val currentUri: String, val audioStream: Int, val pickAudioIntentId: Int,

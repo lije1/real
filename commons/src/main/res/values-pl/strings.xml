@@ -345,7 +345,7 @@
     <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>. Dzięki!
+            Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Thank You</a>. Dzięki!
         ]]></string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
@@ -914,10 +914,10 @@
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
     <string name="donate_please"><![CDATA[
-            Witaj,<br><br> Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, co poskutkuje również wyłączeniem tego komunikatu.<br><br> Dziękujemy!
+            Witaj,<br><br> Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Thank You</a>, co poskutkuje również wyłączeniem tego komunikatu.<br><br> Dziękujemy!
         ]]></string>
-    <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
-    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
+    <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
+    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikację Fossify Thank You do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, najpierw sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Może znajduje się tam rozwiązanie.</string>
@@ -938,7 +938,7 @@
     <string name="rate_our_app">Oceń naszą aplikację :)</string>
     <string name="thank_you">Dziękujemy</string>
     <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
-    <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
+    <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
     <string name="new_app"><![CDATA[
             Cześć!<br><br> Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> Możesz je pobrać, naciskając ich nazwy lub ikony.<br><br> Dzięki!
         ]]></string>
@@ -1133,7 +1133,7 @@
         <item quantity="many">Twój okres próbny wygasa za %d dni.</item>
         <item quantity="other">Twój okres próbny wygasa za %d dni.</item>
     </plurals>
-    <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Pamiętaj, że jeśli odinstalujesz którąkolwiek z płatnych aplikacji w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na hello@fossify.org, a go otrzymasz. To sprawia, że aplikacje są łatwe do wypróbowania :)</string>
     <string name="developer_description">Zestaw prostych, otwartoźródłowych aplikacji na Androida z konfigurowalnymi widżetami, bez reklam i zbędnych uprawnień.</string>
     <string name="alarm">Alarm</string>

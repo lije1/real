@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,13 +7,13 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.biometric.auth.AuthPromptHost
 import androidx.core.widget.TextViewCompat
-import org.fossify.commons.R
-import org.fossify.commons.databinding.TabPinBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.MINIMUM_PIN_LENGTH
-import org.fossify.commons.helpers.PROTECTION_PIN
-import org.fossify.commons.interfaces.BaseSecurityTab
-import org.fossify.commons.interfaces.HashListener
+import com.adika.commons.R
+import com.adika.commons.databinding.TabPinBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.MINIMUM_PIN_LENGTH
+import com.adika.commons.helpers.PROTECTION_PIN
+import com.adika.commons.interfaces.BaseSecurityTab
+import com.adika.commons.interfaces.HashListener
 import java.math.BigInteger
 import java.security.MessageDigest
 import java.util.Locale

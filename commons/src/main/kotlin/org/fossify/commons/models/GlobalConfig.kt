@@ -1,6 +1,6 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
-import org.fossify.commons.helpers.MyContentProvider
+import com.adika.commons.helpers.MyContentProvider
 
 data class GlobalConfig(
     val themeType: Int,

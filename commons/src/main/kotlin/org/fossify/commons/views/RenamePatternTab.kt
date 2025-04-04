@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.ContentValues
 import android.content.Context
@@ -7,14 +7,14 @@ import android.text.format.DateFormat
 import android.util.AttributeSet
 import android.widget.RelativeLayout
 import androidx.exifinterface.media.ExifInterface
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.DialogRenameItemsPatternBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.isNougatPlus
-import org.fossify.commons.interfaces.RenameTab
-import org.fossify.commons.models.Android30RenameFormat
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.DialogRenameItemsPatternBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.isNougatPlus
+import com.adika.commons.interfaces.RenameTab
+import com.adika.commons.models.Android30RenameFormat
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Calendar

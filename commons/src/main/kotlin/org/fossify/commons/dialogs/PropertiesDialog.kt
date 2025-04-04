@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.net.Uri
@@ -8,12 +8,12 @@ import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.app.AlertDialog
 import androidx.exifinterface.media.ExifInterface
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.FileDirItem
-import org.fossify.commons.views.MyTextView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
+import com.adika.commons.views.MyTextView
 import java.io.File
 import java.io.InputStream
 import java.util.*
@@ -172,7 +172,7 @@ class PropertiesDialog : BasePropertiesDialog {
                 return
             }
 
-            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "org.fossify.filemanager") {
+            if (mActivity.baseConfig.appId.removeSuffix(".debug") == "com.adika.filemanager") {
                 calculateAndDisplayHash(
                     path = path,
                     labelRes = R.string.md5,

@@ -5,7 +5,7 @@
     <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="org.fossify.commons.samples.App"
+        android:name="com.adika.commons.samples.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/commons_app_name"
@@ -15,7 +15,7 @@
         android:theme="@style/TranslucentTheme">
 
         <activity
-            android:name="org.fossify.commons.samples.activities.MainActivity"
+            android:name="com.adika.commons.samples.activities.MainActivity"
             android:configChanges="orientation"
             android:exported="true">
         </activity>
@@ -25,29 +25,29 @@
             android:theme="@style/SplashTheme"/>
 
         <activity
-            android:name="org.fossify.commons.activities.AboutActivity"
+            android:name="com.adika.commons.activities.AboutActivity"
             android:configChanges="orientation" />
 
         <activity
-            android:name="org.fossify.commons.activities.CustomizationActivity"
+            android:name="com.adika.commons.activities.CustomizationActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
 
         <activity
-            android:name="org.fossify.commons.activities.ManageBlockedNumbersActivity"
+            android:name="com.adika.commons.activities.ManageBlockedNumbersActivity"
             android:label="@string/manage_blocked_numbers" />
 
         <activity
-            android:name="org.fossify.commons.samples.activities.TestDialogActivity"
+            android:name="com.adika.commons.samples.activities.TestDialogActivity"
             android:enableOnBackInvokedCallback="true"
             android:exported="false" />
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Red"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Red"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_red"
             android:roundIcon="@mipmap/ic_launcher_red"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,12 +56,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Pink"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Pink"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_pink"
             android:roundIcon="@mipmap/ic_launcher_pink"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -70,12 +70,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Purple"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Purple"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_purple"
             android:roundIcon="@mipmap/ic_launcher_purple"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -84,12 +84,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Deep_purple"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Deep_purple"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_deep_purple"
             android:roundIcon="@mipmap/ic_launcher_deep_purple"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -98,12 +98,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Indigo"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Indigo"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_indigo"
             android:roundIcon="@mipmap/ic_launcher_indigo"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -112,12 +112,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Blue"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Blue"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_blue"
             android:roundIcon="@mipmap/ic_launcher_blue"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -126,12 +126,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Light_blue"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Light_blue"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_light_blue"
             android:roundIcon="@mipmap/ic_launcher_light_blue"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -140,12 +140,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Cyan"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Cyan"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_cyan"
             android:roundIcon="@mipmap/ic_launcher_cyan"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -154,12 +154,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Teal"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Teal"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_teal"
             android:roundIcon="@mipmap/ic_launcher_teal"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -168,12 +168,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Green"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Green"
             android:enabled="true"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -182,12 +182,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Light_green"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Light_green"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_light_green"
             android:roundIcon="@mipmap/ic_launcher_light_green"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -196,12 +196,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Lime"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Lime"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_lime"
             android:roundIcon="@mipmap/ic_launcher_lime"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -210,12 +210,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Yellow"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Yellow"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_yellow"
             android:roundIcon="@mipmap/ic_launcher_yellow"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -224,12 +224,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Amber"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Amber"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_amber"
             android:roundIcon="@mipmap/ic_launcher_amber"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -238,12 +238,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Orange"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Orange"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_orange"
             android:roundIcon="@mipmap/ic_launcher_orange"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -251,12 +251,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Deep_orange"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Deep_orange"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_deep_orange"
             android:roundIcon="@mipmap/ic_launcher_deep_orange"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -265,12 +265,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Brown"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Brown"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_brown"
             android:roundIcon="@mipmap/ic_launcher_brown"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -279,12 +279,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Blue_grey"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Blue_grey"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_blue_grey"
             android:roundIcon="@mipmap/ic_launcher_blue_grey"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -293,12 +293,12 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.fossify.commons.samples.activities.SplashActivity.Grey_black"
+            android:name="com.adika.commons.samples.activities.SplashActivity.Grey_black"
             android:enabled="false"
             android:exported="true"
             android:icon="@mipmap/ic_launcher_grey_black"
             android:roundIcon="@mipmap/ic_launcher_grey_black"
-            android:targetActivity="org.fossify.commons.samples.activities.SplashActivity">
+            android:targetActivity="com.adika.commons.samples.activities.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

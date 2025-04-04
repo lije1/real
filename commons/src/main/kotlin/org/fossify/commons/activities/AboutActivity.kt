@@ -1,4 +1,4 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -13,17 +13,17 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.core.net.toUri
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
-import org.fossify.commons.compose.extensions.rateStarsRedirectAndThankYou
-import org.fossify.commons.compose.screens.*
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.ConfirmationAdvancedAlertDialog
-import org.fossify.commons.dialogs.RateStarsAlertDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.FAQItem
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.adika.commons.compose.extensions.rateStarsRedirectAndThankYou
+import com.adika.commons.compose.screens.*
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.dialogs.ConfirmationAdvancedAlertDialog
+import com.adika.commons.dialogs.RateStarsAlertDialog
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FAQItem
 
 class AboutActivity : BaseComposeActivity() {
     private val appName get() = intent.getStringExtra(APP_NAME) ?: ""
@@ -218,7 +218,7 @@ class AboutActivity : BaseComposeActivity() {
         val separator = "------------------------------"
         val body = "$appVersion$newline$deviceOS$newline$separator$newline$newline"
 
-        val address = if (packageName.startsWith("org.fossify")) {
+        val address = if (packageName.startsWith("com.adika")) {
             getString(R.string.my_email)
         } else {
             getString(R.string.my_fake_email)
@@ -309,7 +309,7 @@ class AboutActivity : BaseComposeActivity() {
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
-            .removePrefix("org.fossify.")
+            .removePrefix("com.adika.")
         val url = "https://www.fossify.org/policy/$appId"
         launchViewIntent(url)
     }

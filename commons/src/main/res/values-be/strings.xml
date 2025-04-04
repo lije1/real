@@ -990,7 +990,7 @@
     <string name="pdf_viewer_title">Android PdfViewer (Прагляд PDF)</string>
     <string name="m3u_parser_title">M3U Parser (апрацоўка файла спісу прайгравання m3u)</string>
     <string name="android_lame_title">AndroidLame (кадавальнік mp3)</string>
-    <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Не забывайце, што калі вы выдаліце любую платную праграму на працягу 2 гадзін, вам аўтаматычна вернуць грошы. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org, і вы атрымаеце іх. Гэта дазваляе лёгка паспрабаваць :)</string>
     <string name="developer_description">Група простых праграм для Android з адкрытым зыходным кодам і віджэтамі, якія можна наладзіць, без рэкламы і непатрэбных дазволаў.</string>
 </resources>

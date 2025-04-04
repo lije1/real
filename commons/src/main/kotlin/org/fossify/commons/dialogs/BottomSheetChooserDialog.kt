@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.os.Bundle
 import android.view.ViewGroup
@@ -19,20 +19,20 @@ import androidx.compose.ui.unit.sp
 import androidx.fragment.app.FragmentManager
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.adapters.setupSimpleListItem
-import org.fossify.commons.compose.alert_dialog.dialogContainerColor
-import org.fossify.commons.compose.alert_dialog.dialogTextColor
-import org.fossify.commons.compose.bottom_sheet.BottomSheetColumnDialogSurface
-import org.fossify.commons.compose.bottom_sheet.BottomSheetDialogState
-import org.fossify.commons.compose.bottom_sheet.BottomSheetSpacerEdgeToEdge
-import org.fossify.commons.compose.bottom_sheet.rememberBottomSheetDialogState
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.ItemSimpleListBinding
-import org.fossify.commons.fragments.BaseBottomSheetDialogFragment
-import org.fossify.commons.models.SimpleListItem
+import com.adika.commons.R
+import com.adika.commons.adapters.setupSimpleListItem
+import com.adika.commons.compose.alert_dialog.dialogContainerColor
+import com.adika.commons.compose.alert_dialog.dialogTextColor
+import com.adika.commons.compose.bottom_sheet.BottomSheetColumnDialogSurface
+import com.adika.commons.compose.bottom_sheet.BottomSheetDialogState
+import com.adika.commons.compose.bottom_sheet.BottomSheetSpacerEdgeToEdge
+import com.adika.commons.compose.bottom_sheet.rememberBottomSheetDialogState
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.ItemSimpleListBinding
+import com.adika.commons.fragments.BaseBottomSheetDialogFragment
+import com.adika.commons.models.SimpleListItem
 
 open class BottomSheetChooserDialog : BaseBottomSheetDialogFragment() {
 

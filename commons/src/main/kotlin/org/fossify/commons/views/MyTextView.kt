@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet

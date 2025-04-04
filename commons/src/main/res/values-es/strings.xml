@@ -340,7 +340,7 @@
     <string name="global_theme_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
+            Por favor compra <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
         ]]>
     </string>
     <string name="light_theme">Claro</string>
@@ -867,7 +867,7 @@
     <string name="donate_please">
         <![CDATA[
             Hola,<br><br>
-            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
+            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
             ¡Gracias!
         ]]>
     </string>
@@ -1086,7 +1086,7 @@
         <item quantity="many">Su prueba expira en %d días.</item>
         <item quantity="other">Su prueba expira en %d días.</item>
     </plurals>
-    <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de paga dentro de un periodo de 2 horas, automáticamente recibirás un rembolso. Si quieres un rembolso en cualquier otro momento, solo contáctanos en hello@fossify.org y lo recibirás. Eso hace que sea fácil probarlo :)</string>
     <string name="developer_description">Un grupo de aplicaciones de Android simples y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
     <string name="error">Error: %s</string>
@@ -1129,10 +1129,10 @@
     <string name="saturday_letter">S</string>
     <string name="website">Página web</string>
     <string name="social">Social</string>
-    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco estamos recopilando tus datos, por favor apoya su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. También tendrás desbloqueadas todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
+    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco estamos recopilando tus datos, por favor apoya su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;. También tendrás desbloqueadas todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
     <string name="update_thank_you">Por favor, actualice Fossify Thank You a la última versión</string>
-    <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
-    <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
+    <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
+    <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
     <string name="translation_bulgarian">Búlgaro</string>
     <string name="translation_chuvash">Chuvasio</string>
     <string name="translation_gujarati">Guyaratí</string>

@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.compose.material3.DividerDefaults
 import androidx.compose.material3.HorizontalDivider
@@ -6,9 +6,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.divider_grey
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.divider_grey
 
 @Composable
 fun SettingsHorizontalDivider(

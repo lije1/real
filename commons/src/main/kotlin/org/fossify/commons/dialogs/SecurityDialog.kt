@@ -1,17 +1,17 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.biometric.auth.AuthPromptHost
 import androidx.fragment.app.FragmentActivity
-import org.fossify.commons.R
-import org.fossify.commons.adapters.PasswordTypesAdapter
-import org.fossify.commons.databinding.DialogSecurityBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.interfaces.HashListener
-import org.fossify.commons.views.MyDialogViewPager
+import com.adika.commons.R
+import com.adika.commons.adapters.PasswordTypesAdapter
+import com.adika.commons.databinding.DialogSecurityBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.views.MyDialogViewPager
 
 class SecurityDialog(
     private val activity: Activity,

@@ -1,4 +1,4 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.animation.ArgbEvaluator
 import android.animation.ObjectAnimator
@@ -44,16 +44,16 @@ import androidx.core.view.get
 import androidx.core.view.size
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
-import org.fossify.commons.R
-import org.fossify.commons.asynctasks.CopyMoveTask
-import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
-import org.fossify.commons.dialogs.*
-import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.interfaces.CopyMoveListener
-import org.fossify.commons.models.FAQItem
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.asynctasks.CopyMoveTask
+import com.adika.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
+import com.adika.commons.dialogs.*
+import com.adika.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.interfaces.CopyMoveListener
+import com.adika.commons.models.FAQItem
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.OutputStream
 import java.util.regex.Pattern
@@ -104,7 +104,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
-        if (!packageName.startsWith("org.fossify.", true)) {
+        if (!packageName.startsWith("com.adika.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
                 val label = "You are using a fake version of the app. For your own safety download the original one from www.fossify.org. Thanks"
                 ConfirmationDialog(
@@ -701,7 +701,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("org.fossify")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
@@ -715,7 +715,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFDialogSdk30(path: String, showRationale: Boolean = true, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("org.fossify")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFDialogSdk30(path, showRationale)) {
@@ -739,7 +739,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleSAFCreateDocumentDialogSdk30(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("org.fossify")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingSAFCreateDocumentDialogSdk30(path)) {
@@ -753,7 +753,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun handleAndroidSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("org.fossify")) {
+        return if (!packageName.startsWith("com.adika")) {
             callback(true)
             false
         } else if (isShowingAndroidSAFDialog(path)) {
@@ -1257,7 +1257,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     private fun getExportSettingsFilename(): String {
-        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("org.fossify.")
+        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro").removePrefix("com.adika.")
         return "$appName-settings_${getCurrentFormattedDateTime()}"
     }
 

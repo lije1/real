@@ -1,16 +1,16 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.text.AnnotatedString
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
-import org.fossify.commons.compose.screens.DonationScreen
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.extensions.openWebsiteIntent
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.models.Donation
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.adika.commons.compose.screens.DonationScreen
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.extensions.openWebsiteIntent
+import com.adika.commons.extensions.toast
+import com.adika.commons.models.Donation
 
 class DonationActivity : BaseComposeActivity() {
 

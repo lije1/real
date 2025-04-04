@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.os.Environment
 import android.os.Parcelable
@@ -8,15 +8,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.documentfile.provider.DocumentFile
 import androidx.recyclerview.widget.LinearLayoutManager
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.adapters.FilepickerFavoritesAdapter
-import org.fossify.commons.adapters.FilepickerItemsAdapter
-import org.fossify.commons.databinding.DialogFilepickerBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.ensureBackgroundThread
-import org.fossify.commons.models.FileDirItem
-import org.fossify.commons.views.Breadcrumbs
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.adapters.FilepickerFavoritesAdapter
+import com.adika.commons.adapters.FilepickerItemsAdapter
+import com.adika.commons.databinding.DialogFilepickerBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.ensureBackgroundThread
+import com.adika.commons.models.FileDirItem
+import com.adika.commons.views.Breadcrumbs
 import java.io.File
 
 /**

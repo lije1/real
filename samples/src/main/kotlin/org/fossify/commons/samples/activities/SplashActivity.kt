@@ -1,7 +1,7 @@
-package org.fossify.commons.samples.activities
+package com.adika.commons.samples.activities
 
 import android.content.Intent
-import org.fossify.commons.activities.BaseSplashActivity
+import com.adika.commons.activities.BaseSplashActivity
 
 class SplashActivity : BaseSplashActivity() {
     override fun initActivity() {

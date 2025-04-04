@@ -1,13 +1,13 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.util.SparseArray
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.PagerAdapter
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.interfaces.RenameTab
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.interfaces.RenameTab
 
 class RenameAdapter(val activity: BaseSimpleActivity, val paths: ArrayList<String>) : PagerAdapter() {
     private val tabs = SparseArray<RenameTab>()

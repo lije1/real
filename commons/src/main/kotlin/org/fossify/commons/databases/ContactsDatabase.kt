@@ -1,4 +1,4 @@
-package org.fossify.commons.databases
+package com.adika.commons.databases
 
 import android.content.Context
 import androidx.room.Database
@@ -7,14 +7,14 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import org.fossify.commons.helpers.Converters
-import org.fossify.commons.helpers.FIRST_CONTACT_ID
-import org.fossify.commons.helpers.FIRST_GROUP_ID
-import org.fossify.commons.helpers.getEmptyLocalContact
-import org.fossify.commons.interfaces.ContactsDao
-import org.fossify.commons.interfaces.GroupsDao
-import org.fossify.commons.models.contacts.Group
-import org.fossify.commons.models.contacts.LocalContact
+import com.adika.commons.helpers.Converters
+import com.adika.commons.helpers.FIRST_CONTACT_ID
+import com.adika.commons.helpers.FIRST_GROUP_ID
+import com.adika.commons.helpers.getEmptyLocalContact
+import com.adika.commons.interfaces.ContactsDao
+import com.adika.commons.interfaces.GroupsDao
+import com.adika.commons.models.contacts.Group
+import com.adika.commons.models.contacts.LocalContact
 import java.util.concurrent.Executors
 
 @Database(entities = [LocalContact::class, Group::class], version = 3, exportSchema = true)

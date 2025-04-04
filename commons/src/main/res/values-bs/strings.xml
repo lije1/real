@@ -343,7 +343,7 @@
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
+            Molimo kupite <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
         ]]>
     </string>
     <string name="light_theme">Svijetla</string>
@@ -881,7 +881,7 @@
     <string name="donate_please">
         <![CDATA[
             Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, zato nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
+            nadam se da uživate u aplikaciji. Ne sadrži reklame, zato nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
             Hvala Vam!
         ]]>
     </string>
@@ -1076,7 +1076,7 @@
         <item quantity="few">Tvoj probni period ističe za %d dana.</item>
         <item quantity="other">Tvoj probni period ističe za %d dana.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
     <string name="filter">Filter</string>

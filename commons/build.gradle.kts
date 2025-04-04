@@ -8,11 +8,11 @@ plugins {
     `maven-publish`
 }
 
-group = "org.fossify"
+group = "com.adika"
 version = "1.0.0"
 
 android {
-    namespace = "org.fossify.commons"
+    namespace = "com.adika.commons"
 
     compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()
 

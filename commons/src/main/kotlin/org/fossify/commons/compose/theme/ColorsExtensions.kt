@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable

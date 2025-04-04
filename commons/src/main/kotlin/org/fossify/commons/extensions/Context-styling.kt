@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -9,12 +9,12 @@ import android.graphics.Color
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
 import com.google.android.material.color.MaterialColors
-import org.fossify.commons.R
-import org.fossify.commons.helpers.*
-import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
-import org.fossify.commons.models.GlobalConfig
-import org.fossify.commons.models.isGlobalThemingEnabled
-import org.fossify.commons.views.*
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
+import com.adika.commons.models.GlobalConfig
+import com.adika.commons.models.isGlobalThemingEnabled
+import com.adika.commons.views.*
 
 fun Context.isDynamicTheme() = isSPlus() && baseConfig.isSystemThemeEnabled
 

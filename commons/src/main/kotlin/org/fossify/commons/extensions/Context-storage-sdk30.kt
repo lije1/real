@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.net.Uri
@@ -6,10 +6,10 @@ import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.MediaStore
 import androidx.documentfile.provider.DocumentFile
-import org.fossify.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
-import org.fossify.commons.helpers.isRPlus
-import org.fossify.commons.helpers.isSPlus
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.helpers.EXTERNAL_STORAGE_PROVIDER_AUTHORITY
+import com.adika.commons.helpers.isRPlus
+import com.adika.commons.helpers.isSPlus
+import com.adika.commons.models.FileDirItem
 import java.io.File
 
 private const val DOWNLOAD_DIR = "Download"

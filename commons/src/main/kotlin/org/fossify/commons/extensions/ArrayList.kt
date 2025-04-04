@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 fun <T> ArrayList<T>.moveLastItemToFront() {
     val last = removeAt(size - 1)

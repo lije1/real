@@ -1,4 +1,4 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.content.Context
 import android.util.SparseArray
@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.biometric.auth.AuthPromptHost
 import androidx.viewpager.widget.PagerAdapter
-import org.fossify.commons.R
-import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
-import org.fossify.commons.helpers.PROTECTION_PATTERN
-import org.fossify.commons.helpers.PROTECTION_PIN
-import org.fossify.commons.helpers.isRPlus
-import org.fossify.commons.interfaces.HashListener
-import org.fossify.commons.interfaces.SecurityTab
-import org.fossify.commons.views.MyScrollView
+import com.adika.commons.R
+import com.adika.commons.helpers.PROTECTION_FINGERPRINT
+import com.adika.commons.helpers.PROTECTION_PATTERN
+import com.adika.commons.helpers.PROTECTION_PIN
+import com.adika.commons.helpers.isRPlus
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
+import com.adika.commons.views.MyScrollView
 
 class PasswordTypesAdapter(
     private val context: Context,

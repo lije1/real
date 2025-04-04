@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme.model
+package com.adika.commons.compose.theme.model
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color

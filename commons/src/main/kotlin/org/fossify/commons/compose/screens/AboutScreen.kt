@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.screens
+package com.adika.commons.compose.screens
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
@@ -7,15 +7,15 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.lists.SimpleColumnScaffold
-import org.fossify.commons.compose.settings.SettingsGroup
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.settings.SettingsListItem
-import org.fossify.commons.compose.settings.SettingsTitleTextComponent
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.lists.SimpleColumnScaffold
+import com.adika.commons.compose.settings.SettingsGroup
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.settings.SettingsListItem
+import com.adika.commons.compose.settings.SettingsTitleTextComponent
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
 
 private val titleStartPadding = Modifier.padding(start = 40.dp)
 
@@ -274,7 +274,7 @@ private fun AboutScreenPreview() {
                 onPrivacyPolicyClick = {},
                 onLicenseClick = {},
                 versionName = "5.0.4",
-                packageName = "org.fossify.commons.samples",
+                packageName = "com.adika.commons.samples",
                 onVersionClick = {}
             )
         }

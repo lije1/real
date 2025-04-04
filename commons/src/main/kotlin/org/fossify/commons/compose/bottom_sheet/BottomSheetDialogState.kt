@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.bottom_sheet
+package com.adika.commons.compose.bottom_sheet
 
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.material3.BottomSheetDefaults
@@ -9,8 +9,8 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.mapSaver
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
-import org.fossify.commons.compose.alert_dialog.dialogContainerColor
-import org.fossify.commons.compose.alert_dialog.dialogElevation
+import com.adika.commons.compose.alert_dialog.dialogContainerColor
+import com.adika.commons.compose.alert_dialog.dialogElevation
 
 @Composable
 fun rememberBottomSheetDialogState(

@@ -1,6 +1,6 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
-import org.fossify.commons.adapters.MyRecyclerViewAdapter
+import com.adika.commons.adapters.MyRecyclerViewAdapter
 
 interface ItemTouchHelperContract {
     fun onRowMoved(fromPosition: Int, toPosition: Int)

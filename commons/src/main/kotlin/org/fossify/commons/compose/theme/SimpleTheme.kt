@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
@@ -7,7 +7,7 @@ import androidx.compose.material3.Typography
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.ReadOnlyComposable
-import org.fossify.commons.compose.theme.model.Dimensions
+import com.adika.commons.compose.theme.model.Dimensions
 
 @Immutable
 object SimpleTheme {

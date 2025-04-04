@@ -1,17 +1,17 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import org.fossify.commons.R
-import org.fossify.commons.databinding.DialogPropertiesBinding
-import org.fossify.commons.databinding.ItemPropertyBinding
-import org.fossify.commons.extensions.copyToClipboard
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.showLocationOnMap
-import org.fossify.commons.extensions.value
+import com.adika.commons.R
+import com.adika.commons.databinding.DialogPropertiesBinding
+import com.adika.commons.databinding.ItemPropertyBinding
+import com.adika.commons.extensions.copyToClipboard
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.showLocationOnMap
+import com.adika.commons.extensions.value
 
 abstract class BasePropertiesDialog(activity: Activity) {
     protected val mInflater: LayoutInflater

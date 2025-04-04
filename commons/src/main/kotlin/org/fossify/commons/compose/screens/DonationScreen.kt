@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.screens
+package com.adika.commons.compose.screens
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -18,17 +18,17 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.R
-import org.fossify.commons.activities.FossifyCryptoAddresses
-import org.fossify.commons.activities.FossifyDonationPlatforms
-import org.fossify.commons.compose.lists.SimpleColumnScaffold
-import org.fossify.commons.compose.settings.SettingsGroup
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.settings.SettingsTitleTextComponent
-import org.fossify.commons.compose.theme.Shapes
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.textSubTitleColor
-import org.fossify.commons.models.Donation
+import com.adika.commons.R
+import com.adika.commons.activities.FossifyCryptoAddresses
+import com.adika.commons.activities.FossifyDonationPlatforms
+import com.adika.commons.compose.lists.SimpleColumnScaffold
+import com.adika.commons.compose.settings.SettingsGroup
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.settings.SettingsTitleTextComponent
+import com.adika.commons.compose.theme.Shapes
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.textSubTitleColor
+import com.adika.commons.models.Donation
 
 private val titleStartPadding = Modifier.padding(start = 48.dp)
 

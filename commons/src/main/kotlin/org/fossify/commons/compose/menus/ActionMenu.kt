@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.menus
+package com.adika.commons.compose.menus
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.background
@@ -25,15 +25,15 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.dialogBorder
-import org.fossify.commons.compose.alert_dialog.dialogContainerColor
-import org.fossify.commons.compose.components.SimpleDropDownMenuItem
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.Shapes
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.dialogBorder
+import com.adika.commons.compose.alert_dialog.dialogContainerColor
+import com.adika.commons.compose.components.SimpleDropDownMenuItem
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.Shapes
+import com.adika.commons.compose.theme.SimpleTheme
 
 /**
  * Essentially a wrapper around a lambda function to give it a name and icon

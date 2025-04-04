@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.view.LayoutInflater
@@ -17,15 +17,15 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.databinding.DialogWhatsNewBinding
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.models.Release
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.databinding.DialogWhatsNewBinding
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.models.Release
 
 class WhatsNewDialog(val activity: Activity, val releases: List<Release>) {
     init {

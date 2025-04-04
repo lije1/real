@@ -1,8 +1,8 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import org.fossify.commons.adapters.MyRecyclerViewAdapter
+import com.adika.commons.adapters.MyRecyclerViewAdapter
 
 open class ItemMoveCallback(private val mAdapter: ItemTouchHelperContract, private val allowHorizontalDrag: Boolean = false) : ItemTouchHelper.Callback() {
     override fun isLongPressDragEnabled() = false

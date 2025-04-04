@@ -332,7 +332,7 @@
     <string name="global_theme_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
+            Köp <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
         ]]>
     </string>
     <string name="light_theme">Ljust</string>
@@ -826,7 +826,7 @@
     <string name="donate_please">
         <![CDATA[
             Hej,<br><br>
-            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
+            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
             Tack!
         ]]>
     </string>
@@ -1026,7 +1026,7 @@
         <item quantity="one">Din prövotid tar slut om %d dag.</item>
         <item quantity="other">Din prövotid tar slut om %d dagar.</item>
     </plurals>
-    <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
     <string name="purchase_simple_thank_you">Köp Fossify Thank You</string>

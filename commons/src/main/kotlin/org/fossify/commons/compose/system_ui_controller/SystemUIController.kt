@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.system_ui_controller
+package com.adika.commons.compose.system_ui_controller
 
 /*
  * Copyright 2022 The Android Open Source Project

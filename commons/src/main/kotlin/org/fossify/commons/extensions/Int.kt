@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -7,7 +7,7 @@ import android.media.ExifInterface
 import android.os.Handler
 import android.os.Looper
 import androidx.core.os.postDelayed
-import org.fossify.commons.helpers.DARK_GREY
+import com.adika.commons.helpers.DARK_GREY
 import java.text.DecimalFormat
 import java.util.Locale
 import java.util.Random

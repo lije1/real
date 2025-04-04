@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import android.content.Context
 import android.content.res.Configuration
@@ -7,7 +7,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.platform.LocalContext
-import org.fossify.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import com.adika.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
 
 
 @Composable

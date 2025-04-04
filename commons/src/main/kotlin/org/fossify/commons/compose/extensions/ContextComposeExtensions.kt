@@ -1,12 +1,12 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import android.app.Activity
 import android.content.Context
-import org.fossify.commons.R
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.redirectToRateUs
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.helpers.BaseConfig
+import com.adika.commons.R
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.redirectToRateUs
+import com.adika.commons.extensions.toast
+import com.adika.commons.helpers.BaseConfig
 
 val Context.config: BaseConfig get() = BaseConfig.newInstance(applicationContext)
 

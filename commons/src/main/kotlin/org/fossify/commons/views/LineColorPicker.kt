@@ -1,14 +1,14 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.widget.LinearLayout
-import org.fossify.commons.R
-import org.fossify.commons.extensions.isRTLLayout
-import org.fossify.commons.extensions.onGlobalLayout
-import org.fossify.commons.interfaces.LineColorPickerListener
+import com.adika.commons.R
+import com.adika.commons.extensions.isRTLLayout
+import com.adika.commons.extensions.onGlobalLayout
+import com.adika.commons.interfaces.LineColorPickerListener
 
 class LineColorPicker @JvmOverloads constructor(
     context: Context,

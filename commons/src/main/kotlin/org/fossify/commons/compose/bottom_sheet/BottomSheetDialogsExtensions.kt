@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.bottom_sheet
+package com.adika.commons.compose.bottom_sheet
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -10,12 +10,12 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.alert_dialog.dialogContainerColor
-import org.fossify.commons.compose.alert_dialog.dialogElevation
-import org.fossify.commons.compose.theme.LocalTheme
-import org.fossify.commons.compose.theme.Shapes
-import org.fossify.commons.compose.theme.light_grey_stroke
-import org.fossify.commons.compose.theme.model.Theme
+import com.adika.commons.compose.alert_dialog.dialogContainerColor
+import com.adika.commons.compose.alert_dialog.dialogElevation
+import com.adika.commons.compose.theme.LocalTheme
+import com.adika.commons.compose.theme.Shapes
+import com.adika.commons.compose.theme.light_grey_stroke
+import com.adika.commons.compose.theme.model.Theme
 
 val bottomSheetDialogShape = Shapes.extraLarge.copy(
     bottomEnd = CornerSize(0f),

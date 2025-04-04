@@ -352,7 +352,7 @@
     <string name="save_before_closing">आपके पास सहेजे नहीं गए परिवर्तन हैं। बाहर निकलने से पहले सहेजें?</string>
     <string name="apply_to_all_apps">सभी Fossify ऐप्स पर रंग लागू करें</string>
     <string name="shared_theme_note">ध्यान दें कि भले ही आप Pro ऐप संस्करण का उपयोग कर रहे हैं, फिर भी आपको तकनीकी कारणों से Fossify Thank You की आवश्यकता है। यह रंग समन्वयन का ख्याल रखता है।</string>
-    <string name="purchase_thank_you">कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें। धन्यवाद!</string>
+    <string name="purchase_thank_you">कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें। धन्यवाद!</string>
     <string name="dark_red">गहरा लाल</string>
     <string name="stop_showing_hidden">छुपे हुए मीडिया को दिखाना बंद करें</string>
     <string name="remove">हटाएं</string>
@@ -477,10 +477,10 @@
     <string name="faq_8_title_commons">मुझे Pro वर्शन में अपग्रेड क्यों करना चाहिए?</string>
     <string name="faq_8_text_commons">चूंकि आपका ऐप वर्शन अब अपडेट नहीं है, इसलिए आपके द्वारा देखे गए बग कभी भी ठीक नहीं किए जाएंगे। कोई नया प्रकार्य भी नहीं जोड़ा जाएगा। आप Google Play पर थोड़े से पैसे देकर Pro वर्शन खरीद सकते हैं। यह एक बार का भुगतान है, जिसका अर्थ है कि एक बार इसे खरीदने के बाद आपको दोबारा कभी भुगतान नहीं करना पड़ेगा। नई डिवाइस लेने के बाद भी नहीं. यदि आपको Pro वर्शन पसंद नहीं आएगा, तो आप इसे कुछ घंटों के भीतर अनइंस्टॉल कर सकते हैं और आपको अपने पैसे स्वचालित रूप से वापस मिल जाएंगे। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस hello@fossify.org पर हमसे संपर्क करें और आपको यह मिल जाएगा।</string>
     <string name="other_help">अन्य सहायता</string>
-    <string name="donate_new">नमस्ते,&lt;br&gt;&lt;br&gt;आशा है कि आप ऐप का आनंद ले रहे हैं। इसमें कोई विज्ञापन नहीं है और हम आपका डेटा भी एकत्र नहीं कर रहे हैं, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify खरीदकर इसके विकास का समर्थन करें। धन्यवाद आप&lt;/a&gt;. आपके पास रंग अनुकूलन सहित सभी ऐप सुविधाएं भी अनलॉक होंगी।&lt;br&gt;&lt;br&gt;धन्यवाद!</string>
-    <string name="donate_short">कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदकर हमारा समर्थन करें, यह रंग सहित सभी ऐप सुविधाओं को भी अनलॉक कर देगा। अनुकूलन।</string>
+    <string name="donate_new">नमस्ते,&lt;br&gt;&lt;br&gt;आशा है कि आप ऐप का आनंद ले रहे हैं। इसमें कोई विज्ञापन नहीं है और हम आपका डेटा भी एकत्र नहीं कर रहे हैं, कृपया &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify खरीदकर इसके विकास का समर्थन करें। धन्यवाद आप&lt;/a&gt;. आपके पास रंग अनुकूलन सहित सभी ऐप सुविधाएं भी अनलॉक होंगी।&lt;br&gt;&lt;br&gt;धन्यवाद!</string>
+    <string name="donate_short">कृपया &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदकर हमारा समर्थन करें, यह रंग सहित सभी ऐप सुविधाओं को भी अनलॉक कर देगा। अनुकूलन।</string>
     <string name="make_sure_upgrade">यह भी ध्यान दें कि यह ऐप वर्शन अब विकसित नहीं किया जा रहा है, कई सुधारों के लिए Pro संस्करण प्राप्त करें।</string>
-    <string name="features_locked">यह सुविधा लॉक है, कृपया संपूर्ण ऐप अनलॉक करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें।&lt;br &lt;br&gt;यह केवल एक बार भुगतान है और यदि आप संतुष्ट नहीं होंगे, तो हम आपको धनवापसी कर सकते हैं।</string>
+    <string name="features_locked">यह सुविधा लॉक है, कृपया संपूर्ण ऐप अनलॉक करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें।&lt;br &lt;br&gt;यह केवल एक बार भुगतान है और यदि आप संतुष्ट नहीं होंगे, तो हम आपको धनवापसी कर सकते हैं।</string>
     <string name="gallery_short">गैलरी</string>
     <string name="flashlight_short">फ़्लैशलाइट</string>
     <string name="keyboard_short">कीबोर्ड</string>
@@ -945,7 +945,7 @@
     <string name="additional_info">अतिरिक्त जानकारी</string>
     <string name="app_version">ऐप संस्करण: %s</string>
     <string name="device_os">डिवाइस OS: %s</string>
-    <string name="donate_please">नमस्ते,&lt;br&gt;&lt;br&gt; आशा है कि आप ऐप का आनंद ले रहे होंगे। इसमें कोई विज्ञापन नहीं है, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify धन्यवाद&lt;/a&gt; ऐप खरीदकर इसके विकास का समर्थन करें। इस संवाद को दोबारा प्रदर्शित होने से भी रोका जाएगा।&lt;br&gt;&lt;br&gt; धन्यवाद!</string>
+    <string name="donate_please">नमस्ते,&lt;br&gt;&lt;br&gt; आशा है कि आप ऐप का आनंद ले रहे होंगे। इसमें कोई विज्ञापन नहीं है, कृपया &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify धन्यवाद&lt;/a&gt; ऐप खरीदकर इसके विकास का समर्थन करें। इस संवाद को दोबारा प्रदर्शित होने से भी रोका जाएगा।&lt;br&gt;&lt;br&gt; धन्यवाद!</string>
     <string name="purchase">खरीदें</string>
     <string name="update_thank_you">कृपया Fossify Thank You को नवीनतम संस्करण में अपडेट करें</string>
     <string name="before_asking_question_read_faq">कोई प्रश्न पूछने से पहले, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। शायद समाधान वहीं है।</string>
@@ -1031,7 +1031,7 @@
         <item quantity="one">आपका परीक्षण %d दिन में समाप्त हो रहा है।</item>
         <item quantity="other">आपका परीक्षण %d दिनों में समाप्त हो रहा है।</item>
     </plurals>
-    <string name="deprecated_app">अस्वीकृत: ऐप का यह वर्शन अब बनाए नहीं रखा गया है, Pro वर्शन https://play.google.com/store/apps/details?id=org.fossify..xxx.pro पर प्राप्त करें</string>
+    <string name="deprecated_app">अस्वीकृत: ऐप का यह वर्शन अब बनाए नहीं रखा गया है, Pro वर्शन https://play.google.com/store/apps/details?id=com.adika..xxx.pro पर प्राप्त करें</string>
     <string name="developer_description">विज्ञापनों और अनावश्यक अनुमतियों के बिना, अनुकूलन योग्य विजेट्स के साथ सरल, ओपन सोर्स Android ऐप्स का एक समूह।</string>
     <string name="app_icon_color_warning">सावधानी: कुछ लॉन्चर ऐप आइकन अनुकूलन को सही ढंग से प्रबंधित नहीं कर सकते हैं। यदि आइकन गायब हो जाता है, तो Google Play या विजेट, यदि सुलभ हो, के माध्यम से ऐप लॉन्च करने का प्रयास करें। लॉन्च करने के बाद, तयशुदा हरा आइकन रंग #106D1F पुनर्स्थापित करें। चरम मामलों में, ऐप को पुनः इंस्टॉल करना आवश्यक हो सकता है।</string>
     <string name="read_it">इसे पढ़ें</string>

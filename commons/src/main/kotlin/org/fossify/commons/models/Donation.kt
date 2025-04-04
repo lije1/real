@@ -1,4 +1,4 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

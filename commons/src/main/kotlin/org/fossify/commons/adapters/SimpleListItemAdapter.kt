@@ -1,4 +1,4 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.app.Activity
 import android.view.View
@@ -6,10 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.fossify.commons.R
-import org.fossify.commons.databinding.ItemSimpleListBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.models.SimpleListItem
+import com.adika.commons.R
+import com.adika.commons.databinding.ItemSimpleListBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.models.SimpleListItem
 
 open class SimpleListItemAdapter(val activity: Activity, val onItemClicked: (SimpleListItem) -> Unit) :
     ListAdapter<SimpleListItem, SimpleListItemAdapter.SimpleItemViewHolder>(SimpleListItemDiffCallback()) {

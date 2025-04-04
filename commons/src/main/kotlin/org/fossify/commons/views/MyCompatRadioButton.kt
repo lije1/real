@@ -1,10 +1,10 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatRadioButton
-import org.fossify.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.adjustAlpha
 
 class MyCompatRadioButton : AppCompatRadioButton {
     constructor(context: Context) : super(context)

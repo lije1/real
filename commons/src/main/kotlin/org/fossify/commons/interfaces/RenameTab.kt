@@ -1,6 +1,6 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
-import org.fossify.commons.activities.BaseSimpleActivity
+import com.adika.commons.activities.BaseSimpleActivity
 
 interface RenameTab {
     fun initTab(activity: BaseSimpleActivity, paths: ArrayList<String>)

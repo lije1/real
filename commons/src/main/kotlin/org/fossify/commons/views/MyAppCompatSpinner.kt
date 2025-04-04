@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,9 +6,9 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatSpinner
-import org.fossify.commons.R
-import org.fossify.commons.adapters.MyArrayAdapter
-import org.fossify.commons.extensions.applyColorFilter
+import com.adika.commons.R
+import com.adika.commons.adapters.MyArrayAdapter
+import com.adika.commons.extensions.applyColorFilter
 
 class MyAppCompatSpinner : AppCompatSpinner {
     constructor(context: Context) : super(context)

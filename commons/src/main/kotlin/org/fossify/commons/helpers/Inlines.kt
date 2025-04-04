@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 inline fun <T> Iterable<T>.sumByLong(selector: (T) -> Long) = this.map { selector(it) }.sum()
 

@@ -776,7 +776,7 @@
     <string name="device_os">Besturingssysteem: %s</string>
     <string name="donate_please"><![CDATA[
             Hallo,<br><br>
-            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
+            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
              Dankjewel!
         ]]></string>
     <string name="purchase">Kopen</string>
@@ -954,7 +954,7 @@
         <item quantity="one">Deze proefversie verloopt over %d dag.</item>
         <item quantity="other">Deze proefversie verloopt over %d dagen.</item>
     </plurals>
-    <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
     <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
@@ -980,14 +980,14 @@
     <string name="apply_to_all_apps">Kleuren toepassen op alle Fossify apps</string>
     <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
+            Overweeg om <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
         ]]></string>
     <string name="system_default">Systeeminstelling</string>
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
     <string name="purchase_simple_thank_you">Fossify Bedankje aanschaffen</string>
-    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps tegelijk aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
-    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
+    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps tegelijk aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
+    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
     <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
     <string name="copyright">v %1$s
@@ -1023,7 +1023,7 @@
             Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
             dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
         ]]></string>
-    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
+    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
     <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
     <string name="translation_tamil">Tamil</string>

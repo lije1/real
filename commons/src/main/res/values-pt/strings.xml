@@ -309,7 +309,7 @@
     <string name="global_theme_success">Cores atualizadas com sucesso. Foi criado o novo tema \'Partilhado\', que pode utilizar para atualizar as cores de todas as aplicações Simple.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
+            Por favor compre a aplicação <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidade e ajudar no desenvolvimento. Obrigado!
         ]]>
     </string>
     <string name="light_theme">Claro</string>
@@ -995,7 +995,7 @@
     <string name="start_free_trial">Iniciar versão de teste</string>
     <string name="trial_expires_soon">A versão de teste está quase a caducar.</string>
     <string name="welcome_to_app_name">Bem-vindo a %s!</string>
-    <string name="deprecated_app">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para hello@fossify.org. Assim é mais fácil testar :)</string>
     <string name="developer_description">Uma gama de aplicações para Android, open source, com widgets personalizados, sem anúncios nem permissões desnecessárias.</string>
     <string name="too_many_incorrect_attempts">Introduziu o código errado várias vezes.

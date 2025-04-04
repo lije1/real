@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -14,21 +14,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.components.RadioGroupDialogComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogChangeViewTypeBinding
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.helpers.VIEW_TYPE_GRID
-import org.fossify.commons.helpers.VIEW_TYPE_LIST
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.components.RadioGroupDialogComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogChangeViewTypeBinding
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.helpers.VIEW_TYPE_GRID
+import com.adika.commons.helpers.VIEW_TYPE_LIST
 
 class ChangeViewTypeDialog(val activity: BaseSimpleActivity, val callback: () -> Unit) {
     private var view: DialogChangeViewTypeBinding

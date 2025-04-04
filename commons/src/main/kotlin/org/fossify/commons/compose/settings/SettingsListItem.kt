@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
@@ -17,12 +17,12 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.PreviewParameter
 import androidx.compose.ui.unit.TextUnit
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.textSubTitleColor
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.BooleanPreviewParameterProvider
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.textSubTitleColor
 
 @Composable
 fun SettingsListItem(

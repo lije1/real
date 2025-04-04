@@ -1,10 +1,10 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.AutoCompleteTextView
-import org.fossify.commons.extensions.adjustAlpha
-import org.fossify.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.applyColorFilter
 
 class MyAutoCompleteTextView : AutoCompleteTextView {
     constructor(context: Context) : super(context)

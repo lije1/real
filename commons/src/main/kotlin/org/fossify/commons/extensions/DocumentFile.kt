@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import androidx.documentfile.provider.DocumentFile
 

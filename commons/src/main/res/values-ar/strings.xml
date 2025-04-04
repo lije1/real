@@ -356,7 +356,7 @@
     <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
+             يرجى شراء<a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
         ]]>
     </string>
     <string name="light_theme">فاتح</string>
@@ -959,7 +959,7 @@
     <string name="donate_please">
         <![CDATA[
  مرحباً,<br><br>
-            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
+            أتمني أن مستمتعاً بالتطبيق. الذي لا يحتوي على إعلانات ، يرجى دعم تطويره من خلال شراء تطبيق <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>سيمنع هذا  مربع الحوار من الظهور مرة أخرى. <br><br>
             شكرا!
         ]]>
     </string>
@@ -1118,7 +1118,7 @@
         <item quantity="many">تنتهي صلاحية الإصدار التجريبي في %d ايام.</item>
         <item quantity="other">تنتهي صلاحية الإصدار التجريبي في اليوم %d.</item>
     </plurals>
-    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على hello@fossify.org وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
     <string name="developer_description">مجموعة بسيطة، من تطبيقات أندرويد المفتوحة المصدر ذات الودجات القابلة للتخصيص، بدون إعلانات أو أذونات غير ضرورية.</string>
 </resources>

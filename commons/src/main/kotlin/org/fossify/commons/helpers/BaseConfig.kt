@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.content.res.Configuration
@@ -7,11 +7,11 @@ import android.text.format.DateFormat
 import androidx.core.content.ContextCompat
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.filterNotNull
-import org.fossify.commons.R
-import org.fossify.commons.extensions.getInternalStoragePath
-import org.fossify.commons.extensions.getSDCardPath
-import org.fossify.commons.extensions.getSharedPrefs
-import org.fossify.commons.extensions.sharedPreferencesCallback
+import com.adika.commons.R
+import com.adika.commons.extensions.getInternalStoragePath
+import com.adika.commons.extensions.getSDCardPath
+import com.adika.commons.extensions.getSharedPrefs
+import com.adika.commons.extensions.sharedPreferencesCallback
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.LinkedList

@@ -1,11 +1,11 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
-import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.*
+import com.adika.commons.compose.extensions.config
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.extensions.*
 
 fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou): Theme {
     val baseConfig = context.config

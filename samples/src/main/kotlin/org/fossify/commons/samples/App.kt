@@ -1,7 +1,7 @@
-package org.fossify.commons.samples
+package com.adika.commons.samples
 
 import com.github.ajalt.reprint.core.Reprint
-import org.fossify.commons.FossifyApp
+import com.adika.commons.FossifyApp
 
 class App : FossifyApp() {
     override fun onCreate() {

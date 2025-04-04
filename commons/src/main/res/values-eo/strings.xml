@@ -434,7 +434,7 @@
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
     <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
     <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por malbloki ĉi tiun funkcion kaj subteni la programadon. Dankon!
+            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Dankon</a> por malbloki ĉi tiun funkcion kaj subteni la programadon. Dankon!
         ]]></string>
     <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
@@ -877,7 +877,7 @@
     <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
     <string name="social">Sociaj retejoj</string>
     <string name="privacy_policy">Privateca politiko</string>
-    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
+    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
     <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
     <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
     <string name="before_rate_read_faq">Antaŭ taksi nin, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. Se vi havas iun problemon, la solvo eble estos tie.</string>
@@ -886,16 +886,16 @@
     <string name="website_label">Por fontkodo, iru al</string>
     <string name="donate_please"><![CDATA[
             Saluton,<br><br>
-            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
+            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
             Dankon!
         ]]></string>
-    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
+    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
     <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
     <string name="rate_our_app">Bonvolu taksi nian aplikaĵon :)</string>
     <string name="thank_you">Dankon</string>
     <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
-    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
+    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
     <string name="new_app"><![CDATA[
             He,<br><br>
             Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
@@ -1039,7 +1039,7 @@
     <string name="unlock_for_one_final_day">Malŝlosi aplikaĵon por unu lasta tago</string>
     <string name="welcome_to_app_name">Bonvenon al %s!</string>
     <string name="trial_end_description">Bonvolu promociiĝi al la versio Pro por plej ĝui la aplikaĵon.\n\nVi nur pagas unu fojon vian tutan vivon, kaj se vi ne kontentas, vi povas malinstali ĝin por ricevi repagon.\n\nĜis :)</string>
-    <string name="deprecated_app">EVITINDA: Tiu ĉi versio de la aplikaĵo ne plu estas prizorgita. Elŝutu la version Pro el https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">EVITINDA: Tiu ĉi versio de la aplikaĵo ne plu estas prizorgita. Elŝutu la version Pro el https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="reprint_title">Reprint (protektado per fingropremo)</string>
     <string name="gif_drawable_title">Gif Drawable (ŝargado de GIF-dosieroj)</string>
     <string name="gson_title">Gson (malkomponilo de JSON)</string>

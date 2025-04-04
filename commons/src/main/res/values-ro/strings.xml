@@ -271,7 +271,7 @@
     <string name="global_theme_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
+            Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
         ]]>
     </string>
     <string name="light_theme">Luminoasă</string>
@@ -721,7 +721,7 @@
     <string name="donate_please">
         <![CDATA[
             Salut,<br><br>
-            Sper că vă bucurați de aplicație. Nu conține reclame, vă rugăm să sprijiniți dezvoltarea sa prin achiziționarea aplicației <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, de asemenea, va împiedica ca acest dialog să mais apară din nou.<br><br>
+            Sper că vă bucurați de aplicație. Nu conține reclame, vă rugăm să sprijiniți dezvoltarea sa prin achiziționarea aplicației <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>, de asemenea, va împiedica ca acest dialog să mais apară din nou.<br><br>
             Thank you!
         ]]>
     </string>
@@ -905,7 +905,7 @@
     <string name="audio_record_view_title">Audio Record View (vizualizare audio)</string>
     <string name="sms_mms_title">SMS MMS (Gestionarea SMS și MMS)</string>
     <string name="apng_title">APNG Android (suport WebP animat)</string>
-    <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">DEPRECIAT: Această versiune a aplicației nu mai este întreținută, obțineți versiunea Pro la https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Nu uitați că, dacă dezinstalați orice aplicație plătită în termen de 2 ore, veți fi rambursat automat. Dacă doriți o rambursare oricând mai târziu, contactați-ne la hello@fossify.org și o veți obține. Astfel, este ușor să o încercați. :)</string>
     <string name="developer_description">Un grup de aplicații Android simple, open source, cu widget-uri personalizabile, fără reclame și permisiuni inutile.</string>
     <string name="pager">Paginator</string>

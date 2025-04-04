@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*
@@ -7,11 +7,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
-import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
-import org.fossify.commons.extensions.getContrastColor
-import org.fossify.commons.helpers.isSPlus
+import com.adika.commons.compose.extensions.config
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import com.adika.commons.extensions.getContrastColor
+import com.adika.commons.helpers.isSPlus
 
 @Composable
 internal fun Theme(

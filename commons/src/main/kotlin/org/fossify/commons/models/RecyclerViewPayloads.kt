@@ -1,3 +1,3 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 data class RecyclerSelectionPayload(val selected: Boolean)

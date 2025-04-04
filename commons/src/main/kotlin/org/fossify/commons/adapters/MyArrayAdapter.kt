@@ -1,4 +1,4 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.content.Context
 import android.graphics.drawable.ColorDrawable

@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.compose.foundation.gestures.FlingBehavior
 import androidx.compose.foundation.gestures.ScrollableDefaults
@@ -13,7 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.MyDevices
 
 @Composable
 fun SettingsLazyGroup(

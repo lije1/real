@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.screens
+package com.adika.commons.compose.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -12,14 +12,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.lists.SimpleLazyListScaffold
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.License
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.lists.SimpleLazyListScaffold
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.helpers.*
+import com.adika.commons.models.License
 
 @Composable
 internal fun LicenseScreen(

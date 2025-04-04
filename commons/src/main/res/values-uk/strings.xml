@@ -1119,13 +1119,13 @@
         <item quantity="many">Термін дії пробного періоду закінчується через %d днів.</item>
         <item quantity="other">Термін дії пробного періоду закінчується через %d днів.</item>
     </plurals>
-    <string name="deprecated_app">Застаріла: Ця версія застосунку більше не підтримується, встановіть версію Pro за адресою https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">Застаріла: Ця версія застосунку більше не підтримується, встановіть версію Pro за адресою https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Пам\'ятайте: якщо ви видалите будь-який платний застосунок протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою hello@fossify.org, і ви їх отримаєте. Таким чином ви можете легко спробувати застосунок :)</string>
     <string name="developer_description">Група простих Android-застосунків з відкритим вихідним кодом, персоналізованими віджетами, без реклами та непотрібних дозволів.</string>
     <string name="purchase_simple_thank_you">Придбайте Fossify Thank You</string>
     <string name="donate_please"><![CDATA[
             Вітаємо,<br><br>
-            сподіваємось, вам подобається цей застосунок. Він не містить реклами, підтримайте його розробку, придбавши застосунок <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, також це прибере це повідомлення.<br><br>
+            сподіваємось, вам подобається цей застосунок. Він не містить реклами, підтримайте його розробку, придбавши застосунок <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Thank You</a>, також це прибере це повідомлення.<br><br>
             Дякуємо!
         ]]></string>
     <string name="contributors_label"><![CDATA[
@@ -1139,9 +1139,9 @@
             Посібник з перекладів доступний <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
         ]]></string>
     <string name="purchase_thank_you"><![CDATA[
-            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб розблокувати цю функцію та підтримати розробку. Дякуємо!
+            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>, щоб розблокувати цю функцію та підтримати розробку. Дякуємо!
         ]]></string>
-    <string name="donate_short">Будь ласка, підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це розблокує всі функції застосунку, включно з налаштуванням кольорів.</string>
+    <string name="donate_short">Будь ласка, підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це розблокує всі функції застосунку, включно з налаштуванням кольорів.</string>
     <string name="pin">PIN</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="ok">OK</string>
@@ -1152,9 +1152,9 @@
     <string name="usb">USB</string>
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
-    <string name="donate_new">Вітаємо,&lt;br&gt;&lt;br&gt;сподіваємось, вам подобається цей застосунок. Він не містить реклами та не збирає ваших даних, будь ласка, підтримайте його розробку, придбавши застосунок &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Також вам будуть доступні всі функції, включно з налаштуванням кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
+    <string name="donate_new">Вітаємо,&lt;br&gt;&lt;br&gt;сподіваємось, вам подобається цей застосунок. Він не містить реклами та не збирає ваших даних, будь ласка, підтримайте його розробку, придбавши застосунок &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;. Також вам будуть доступні всі функції, включно з налаштуванням кольорів.&lt;br&gt;&lt;br&gt;Дякуємо!</string>
     <string name="update_thank_you">Будь ласка, оновіть Fossify Thank You до останньої версії</string>
-    <string name="features_locked">Ця функція заблокована, придбайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, щоб розблокувати повну версію застосунку.&lt;br&gt;&lt;br&gt;Це одноразовий платіж, і якщо ви будете не задоволені, ми можемо повернути вам гроші.</string>
+    <string name="features_locked">Ця функція заблокована, придбайте &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;, щоб розблокувати повну версію застосунку.&lt;br&gt;&lt;br&gt;Це одноразовий платіж, і якщо ви будете не задоволені, ми можемо повернути вам гроші.</string>
     <string name="faq_6_text_commons">Ця проблема виникає, коли ваш лаунчер не повністю підтримує персоналізацію значків. Спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску, відновіть стандартний зелений колір значка #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>
     <string name="app_icon_color_warning">Увага: деякі лаунчери можуть неправильно обробляти налаштування кольору значка застосунку. Якщо вона зникне, спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску відновіть стандартний зелений колір #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>
     <string name="translation_chuvash">Чуваська</string>

@@ -1,4 +1,4 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.app.Activity
 import android.content.Intent
@@ -6,13 +6,13 @@ import android.os.Bundle
 import androidx.activity.addCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.auth.AuthPromptHost
-import org.fossify.commons.R
-import org.fossify.commons.adapters.AppLockAdapter
-import org.fossify.commons.databinding.ActivityAppLockBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
-import org.fossify.commons.helpers.isRPlus
-import org.fossify.commons.interfaces.HashListener
+import com.adika.commons.R
+import com.adika.commons.adapters.AppLockAdapter
+import com.adika.commons.databinding.ActivityAppLockBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.PROTECTION_FINGERPRINT
+import com.adika.commons.helpers.isRPlus
+import com.adika.commons.interfaces.HashListener
 
 class AppLockActivity : AppCompatActivity(), HashListener {
 

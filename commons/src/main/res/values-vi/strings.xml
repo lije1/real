@@ -292,7 +292,7 @@
     <string name="cannot_be_undone">Hành động này không thể hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các ứng dụng Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
-    <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
+    <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
@@ -624,7 +624,7 @@
     <string name="donate_please">
         <![CDATA[
             Xin chào,<br><br>
-            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
+            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
         ]]>
     </string>
@@ -693,7 +693,7 @@
     <string name="sanselan_title">Apache Sanselan (đọc siêu dữ liệu hình ảnh)</string>
     <string name="filters_title">Bộ lọc ảnh Android (bộ lọc hình ảnh)</string>
     <string name="gesture_views_title">Chế độ xem cử chỉ (hình ảnh có thể phóng to)</string>
-    <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
     <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng một lúc?</string>

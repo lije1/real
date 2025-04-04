@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.LocalIndication
@@ -8,13 +8,13 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.PreviewParameter
-import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.preferenceLabelColor
-import org.fossify.commons.compose.theme.preferenceValueColor
+import com.adika.commons.compose.extensions.BooleanPreviewParameterProvider
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.preferenceLabelColor
+import com.adika.commons.compose.theme.preferenceValueColor
 
 @Composable
 fun SettingsCheckBoxComponent(

@@ -1071,15 +1071,15 @@
         <item quantity="many">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
         <item quantity="other">Aquesta versió de prova caduca d\'aquí a %d dies.</item>
     </plurals>
-    <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">OBSOLETA: Aquesta versió de l\'aplicació ja no es manté, obteniu la versió Pro a https://play.google.com/store/apps/details\?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">No oblideu que si desinstal·leu qualsevol aplicació de pagament en un termini de 2 hores, el càrrec es retornarà automàticament. Si voleu un reemborsament més tard, poseu-vos en contacte amb nosaltres a hello@fossify.org i el rebreu. Això fa que sigui fàcil provar-ho :)</string>
     <string name="developer_description">Un grup d\'aplicacions Android simples i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
     <string name="deletion_confirmation_short">Suprimeixo %s?</string>
     <string name="no">No</string>
     <string name="pin">PASSADOR</string>
     <string name="usb">USB</string>
-    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;esperem que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tou&lt;/a&gt;. També disposareu de totes les funcions desbloquejades de l\'aplicació, incloent-hi la personalització del color.&lt;br&gt;&lt;br&gt;Gràcies!</string>
-    <string name="features_locked">Aquesta característica està bloquejada, compreu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar l\'aplicació completa.&lt;br&gt;&lt;br&gt;És un pagament únic i si no us satisfà, podem reembossar-ho.</string>
+    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;esperem que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank Tou&lt;/a&gt;. També disposareu de totes les funcions desbloquejades de l\'aplicació, incloent-hi la personalització del color.&lt;br&gt;&lt;br&gt;Gràcies!</string>
+    <string name="features_locked">Aquesta característica està bloquejada, compreu &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar l\'aplicació completa.&lt;br&gt;&lt;br&gt;És un pagament únic i si no us satisfà, podem reembossar-ho.</string>
     <string name="faq_2_text_commons"><![CDATA[
             Sí, és clar. Podeu difondre les aplicacions o fer comentaris i valoracions bones. També podeu ajudar traduint les aplicacions a un idioma nou, o simplement actualitzant algunes traduccions existents.
             La guia per a traduir es troba en <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">aquest lloc web</a>, o senzillament poseu-vos en contacte amb nosaltres a <a href="mailto:hello@fossify.org">hello@fossify.org</a> si teniu cap pregunta.
@@ -1092,7 +1092,7 @@
     <string name="genre">Gènere</string>
     <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions de Fossify</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta funció i col·laborar amb el desenvolupament. Gràcies!!
+            Compreu la <a href=https://play.google.com/store/apps/details?id=com.adika.thankyou>Fossify Thank You</a> per a desbloquejar aquesta funció i col·laborar amb el desenvolupament. Gràcies!!
         ]]></string>
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
@@ -1108,7 +1108,7 @@
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
     <string name="social">Social</string>
-    <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
+    <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
     <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no manegin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="faq_6_text_commons">Aquest problema sorgeix quan el llançador no admet completament la personalització d\'icones. Intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="block_contact">Bloqueja el contacte</string>
@@ -1117,7 +1117,7 @@
     <string name="donate_please">
         <![CDATA[
             Hello,<br><br>
-            esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
+            esperem que gaudiu de l\'aplicació. No conté cap anunci, així que si us plau, ajudeu el seu desenvolupament comprant l\'aplicació <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a>, també evitarà que aquest diàleg es torni a mostrar.<br><br>
             Gràcies!
         ]]>
     </string>

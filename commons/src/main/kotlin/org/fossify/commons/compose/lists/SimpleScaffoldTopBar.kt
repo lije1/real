@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.lists
+package com.adika.commons.compose.lists
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -17,11 +17,11 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
 
 @Composable
 fun SimpleScaffoldTopBar(

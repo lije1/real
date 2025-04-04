@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <org.fossify.commons.views.MyRecyclerView
+        <com.adika.commons.views.MyRecyclerView
             android:id="@+id/media_grid"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scrollbars="none"
-            app:layoutManager="org.fossify.commons.views.MyGridLayoutManager"
+            app:layoutManager="com.adika.commons.views.MyGridLayoutManager"
             app:spanCount="1" />
 
     </RelativeLayout>

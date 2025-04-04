@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
@@ -8,10 +8,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
-import org.fossify.commons.compose.extensions.FakeVersionCheck
-import org.fossify.commons.compose.extensions.TransparentSystemBars
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
+import com.adika.commons.compose.extensions.FakeVersionCheck
+import com.adika.commons.compose.extensions.TransparentSystemBars
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.compose.theme.model.Theme.Companion.systemDefaultMaterialYou
 
 @Composable
 fun AppTheme(

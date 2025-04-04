@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import androidx.compose.foundation.gestures.detectDragGesturesAfterLongPress
 import androidx.compose.foundation.lazy.LazyListState

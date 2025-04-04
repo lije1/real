@@ -1,7 +1,7 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.app.Application
-import org.fossify.commons.helpers.isNougatPlus
+import com.adika.commons.helpers.isNougatPlus
 import java.util.Locale
 
 fun Application.checkUseEnglish() {

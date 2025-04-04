@@ -1,10 +1,10 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.app.Activity
 import android.telephony.PhoneNumberUtils
-import org.fossify.commons.extensions.addBlockedNumber
-import org.fossify.commons.extensions.isPhoneNumber
-import org.fossify.commons.extensions.showErrorToast
+import com.adika.commons.extensions.addBlockedNumber
+import com.adika.commons.extensions.isPhoneNumber
+import com.adika.commons.extensions.showErrorToast
 import java.io.File
 
 class BlockedNumbersImporter(

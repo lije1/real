@@ -1,4 +1,4 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable

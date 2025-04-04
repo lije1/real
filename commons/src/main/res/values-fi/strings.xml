@@ -332,7 +332,7 @@
     <string name="global_theme_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
+            Osta <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
         ]]>
     </string>
     <string name="light_theme">Vaalea</string>
@@ -830,7 +830,7 @@
     <string name="donate_please">
         <![CDATA[
             Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
+            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
             Kiitos!
         ]]>
     </string>
@@ -1027,7 +1027,7 @@
         <item quantity="one">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
         <item quantity="other">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
     </plurals>
-    <string name="deprecated_app">VANHENTUNUT:: Tätä sovellusversiota ei enää ylläpidetä, hanki Pro-versio osoitteesta https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">VANHENTUNUT:: Tätä sovellusversiota ei enää ylläpidetä, hanki Pro-versio osoitteesta https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Muista, että saat rahasi automaattisesti takaisin, jos poistat minkä tahansa maksullisista sovelluksistamme kahden tunnin sisällä asentamisesta. Jos haluat rahasi milloin vain myöhemmin takaisin, ota yhteyttä sähköpostitse hello@fossify.org ja saat rahat takaisin. Tämä tekee kokeilun helpoksi :)</string>
     <string name="developer_description">Yksinkertaisia vapaan lähdekoodin Android-sovelluksia kustomoitavilla pienoissovelluksilla, ilman mainoksia ja tarpeettomia käyttöoikeuksia.</string>
     <string name="block_contact">Estä yhteystieto</string>

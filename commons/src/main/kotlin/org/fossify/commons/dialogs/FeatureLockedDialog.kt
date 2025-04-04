@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -21,16 +21,16 @@ import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.components.LinkifyTextComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.composeDonateIntent
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogFeatureLockedBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.components.LinkifyTextComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.composeDonateIntent
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogFeatureLockedBinding
+import com.adika.commons.extensions.*
 
 class FeatureLockedDialog(val activity: Activity, val callback: () -> Unit) {
     private var dialog: AlertDialog? = null

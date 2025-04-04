@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds
@@ -12,13 +12,13 @@ import ezvcard.VCard
 import ezvcard.VCardVersion
 import ezvcard.parameter.ImageType
 import ezvcard.property.*
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.getByteArray
-import org.fossify.commons.extensions.getDateTimeFromDateString
-import org.fossify.commons.extensions.showErrorToast
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.models.contacts.Contact
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.getByteArray
+import com.adika.commons.extensions.getDateTimeFromDateString
+import com.adika.commons.extensions.showErrorToast
+import com.adika.commons.extensions.toast
+import com.adika.commons.models.contacts.Contact
 import java.io.OutputStream
 import java.util.Calendar
 

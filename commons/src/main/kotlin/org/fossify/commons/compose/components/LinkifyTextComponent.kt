@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.components
+package com.adika.commons.compose.components
 
 import android.text.Spanned
 import android.text.method.LinkMovementMethod
@@ -12,12 +12,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.extensions.fromHtml
-import org.fossify.commons.extensions.removeUnderlines
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.extensions.fromHtml
+import com.adika.commons.extensions.removeUnderlines
 
 @Composable
 fun LinkifyTextComponent(

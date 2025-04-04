@@ -1,6 +1,6 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
-import org.fossify.commons.models.BlockedNumber
+import com.adika.commons.models.BlockedNumber
 import java.io.OutputStream
 
 object BlockedNumbersExporter {

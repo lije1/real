@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.graphics.Paint
 import android.graphics.drawable.Drawable

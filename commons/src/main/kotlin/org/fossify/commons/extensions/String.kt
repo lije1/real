@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -12,7 +12,7 @@ import android.text.*
 import android.text.style.ForegroundColorSpan
 import android.widget.TextView
 import com.bumptech.glide.signature.ObjectKey
-import org.fossify.commons.helpers.*
+import com.adika.commons.helpers.*
 import org.joda.time.DateTime
 import org.joda.time.Years
 import org.joda.time.format.DateTimeFormat

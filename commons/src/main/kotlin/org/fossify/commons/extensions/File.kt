@@ -1,8 +1,8 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.Context
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
 import java.io.File
 
 fun File.isMediaFile() = absolutePath.isMediaFile()

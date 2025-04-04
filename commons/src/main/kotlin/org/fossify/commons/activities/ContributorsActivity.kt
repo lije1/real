@@ -1,14 +1,14 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.remember
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
-import org.fossify.commons.compose.screens.ContributorsScreen
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.models.LanguageContributor
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.adika.commons.compose.screens.ContributorsScreen
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.models.LanguageContributor
 
 class ContributorsActivity : BaseComposeActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

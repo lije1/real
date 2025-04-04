@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.lists
+package com.adika.commons.compose.lists
 
 import android.content.Context
 import androidx.compose.foundation.background
@@ -10,15 +10,15 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.LocalLayoutDirection
-import org.fossify.commons.compose.extensions.onEventValue
-import org.fossify.commons.compose.system_ui_controller.rememberSystemUiController
-import org.fossify.commons.compose.theme.LocalTheme
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.isNotLitWell
-import org.fossify.commons.compose.theme.isSurfaceLitWell
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.getColoredMaterialStatusBarColor
-import org.fossify.commons.extensions.getContrastColor
+import com.adika.commons.compose.extensions.onEventValue
+import com.adika.commons.compose.system_ui_controller.rememberSystemUiController
+import com.adika.commons.compose.theme.LocalTheme
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.isNotLitWell
+import com.adika.commons.compose.theme.isSurfaceLitWell
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.extensions.getColoredMaterialStatusBarColor
+import com.adika.commons.extensions.getContrastColor
 
 @Composable
 internal fun SystemUISettingsScaffoldStatusBarColor(scrolledColor: Color) {

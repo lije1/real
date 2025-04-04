@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.content.ContentUris
 import android.content.ContentValues
@@ -20,9 +20,9 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import androidx.documentfile.provider.DocumentFile
-import org.fossify.commons.R
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.models.FileDirItem
 import java.io.*
 import java.net.URLDecoder
 import java.util.*

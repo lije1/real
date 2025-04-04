@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.os.Handler
@@ -7,8 +7,8 @@ import android.view.MotionEvent
 import android.view.ScaleGestureDetector
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import org.fossify.commons.R
-import org.fossify.commons.interfaces.RecyclerScrollCallback
+import com.adika.commons.R
+import com.adika.commons.interfaces.RecyclerScrollCallback
 
 // drag selection is based on https://github.com/afollestad/drag-select-recyclerview
 open class MyRecyclerView : RecyclerView {

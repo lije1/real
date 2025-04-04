@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.theme.model
+package com.adika.commons.compose.theme.model
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
@@ -7,10 +7,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.colorResource
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.theme.isInDarkThemeAndSurfaceIsNotLitWell
-import org.fossify.commons.helpers.isSPlus
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.config
+import com.adika.commons.compose.theme.isInDarkThemeAndSurfaceIsNotLitWell
+import com.adika.commons.helpers.isSPlus
 
 @Stable
 sealed class Theme : CommonTheme {

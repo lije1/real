@@ -1,14 +1,14 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import androidx.appcompat.content.res.AppCompatResources
 import com.google.android.material.materialswitch.MaterialSwitch
-import org.fossify.commons.R
-import org.fossify.commons.extensions.adjustAlpha
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.getContrastColor
+import com.adika.commons.R
+import com.adika.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getContrastColor
 
 class MyMaterialSwitch : MaterialSwitch {
     constructor(context: Context) : super(context)

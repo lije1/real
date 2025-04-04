@@ -1,13 +1,13 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
-import org.fossify.commons.extensions.adjustAlpha
-import org.fossify.commons.extensions.value
-import org.fossify.commons.helpers.HIGHER_ALPHA
-import org.fossify.commons.helpers.MEDIUM_ALPHA
+import com.adika.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.value
+import com.adika.commons.helpers.HIGHER_ALPHA
+import com.adika.commons.helpers.MEDIUM_ALPHA
 
 class MyTextInputLayout : TextInputLayout {
     constructor(context: Context) : super(context)

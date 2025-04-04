@@ -1,4 +1,4 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.app.Application
 import android.content.ActivityNotFoundException
@@ -22,17 +22,17 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
-import org.fossify.commons.compose.extensions.onEventValue
-import org.fossify.commons.compose.screens.ManageBlockedNumbersScreen
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.AddOrEditBlockedNumberAlertDialog
-import org.fossify.commons.dialogs.ExportBlockedNumbersDialog
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.BlockedNumber
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.extensions.enableEdgeToEdgeSimple
+import com.adika.commons.compose.extensions.onEventValue
+import com.adika.commons.compose.screens.ManageBlockedNumbersScreen
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.dialogs.AddOrEditBlockedNumberAlertDialog
+import com.adika.commons.dialogs.ExportBlockedNumbersDialog
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.models.BlockedNumber
 import java.io.FileOutputStream
 import java.io.OutputStream
 
@@ -87,7 +87,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
             val isBlockingUnknownNumbers by config.isBlockingUnknownNumbers.collectAsStateWithLifecycle(initialValue = config.blockUnknownNumbers)
             val showCheckmarksOnSwitches by config.showCheckmarksOnSwitchesFlow.collectAsStateWithLifecycle(initialValue = config.showCheckmarksOnSwitches)
             val isDialer = remember {
-                config.appId.startsWith("org.fossify.phone")
+                config.appId.startsWith("com.adika.phone")
             }
             val isDefaultDialer: Boolean = onEventValue {
                 context.isDefaultDialer()
@@ -220,7 +220,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     }
 
     private fun maybeSetDefaultCallerIdApp() {
-        if (isQPlus() && baseConfig.appId.startsWith("org.fossify.phone")) {
+        if (isQPlus() && baseConfig.appId.startsWith("com.adika.phone")) {
             setDefaultCallerIdApp()
         }
     }

@@ -45,7 +45,7 @@
                 android:paddingTop="@dimen/bigger_margin"
                 android:paddingBottom="@dimen/bigger_margin">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_theme_label"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
                     android:text="@string/theme"
                     android:textSize="@dimen/normal_text_size" />
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_theme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_text_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_background_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_primary_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -153,7 +153,7 @@
                 android:visibility="gone"
                 tools:visibility="visible">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_accent_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -179,7 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <org.fossify.commons.views.MyTextView
+                <com.adika.commons.views.MyTextView
                     android:id="@+id/customization_app_icon_color_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
                 android:visibility="gone"
                 tools:visibility="visible">
 
-                <org.fossify.commons.views.MyMaterialSwitch
+                <com.adika.commons.views.MyMaterialSwitch
                     android:id="@+id/apply_to_all"
                     style="@style/SettingsSwitchStyle"
                     android:layout_width="match_parent"

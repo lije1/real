@@ -1,12 +1,12 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
-import org.fossify.commons.compose.theme.LocalTheme
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.getProperPrimaryColor
+import com.adika.commons.compose.theme.LocalTheme
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getProperPrimaryColor
 
 @Composable
 fun linkColor(): Color {

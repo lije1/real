@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,15 +13,15 @@ import androidx.core.widget.TextViewCompat
 import com.andrognito.patternlockview.PatternLockView
 import com.andrognito.patternlockview.listener.PatternLockViewListener
 import com.andrognito.patternlockview.utils.PatternLockUtils
-import org.fossify.commons.R
-import org.fossify.commons.databinding.TabPatternBinding
-import org.fossify.commons.extensions.getProperPrimaryColor
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.performHapticFeedback
-import org.fossify.commons.extensions.updateTextColors
-import org.fossify.commons.helpers.PROTECTION_PATTERN
-import org.fossify.commons.interfaces.BaseSecurityTab
-import org.fossify.commons.interfaces.HashListener
+import com.adika.commons.R
+import com.adika.commons.databinding.TabPatternBinding
+import com.adika.commons.extensions.getProperPrimaryColor
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.performHapticFeedback
+import com.adika.commons.extensions.updateTextColors
+import com.adika.commons.helpers.PROTECTION_PATTERN
+import com.adika.commons.interfaces.BaseSecurityTab
+import com.adika.commons.interfaces.HashListener
 
 class PatternTab(context: Context, attrs: AttributeSet) : BaseSecurityTab(context, attrs) {
     private var scrollView: MyScrollView? = null

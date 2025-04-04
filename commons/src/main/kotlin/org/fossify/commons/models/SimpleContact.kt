@@ -1,10 +1,10 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 import android.telephony.PhoneNumberUtils
-import org.fossify.commons.extensions.normalizePhoneNumber
-import org.fossify.commons.extensions.normalizeString
-import org.fossify.commons.helpers.SORT_BY_FULL_NAME
-import org.fossify.commons.helpers.SORT_DESCENDING
+import com.adika.commons.extensions.normalizePhoneNumber
+import com.adika.commons.extensions.normalizeString
+import com.adika.commons.helpers.SORT_BY_FULL_NAME
+import com.adika.commons.helpers.SORT_DESCENDING
 
 data class SimpleContact(
     val rawId: Int,

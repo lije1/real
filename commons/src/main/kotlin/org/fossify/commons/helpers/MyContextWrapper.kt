@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.annotation.TargetApi
 import android.content.Context

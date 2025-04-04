@@ -1,14 +1,14 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import android.app.Activity
 import android.app.ActivityManager
 import android.content.Context
 import android.graphics.BitmapFactory
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.getActivity
-import org.fossify.commons.helpers.APP_ICON_IDS
-import org.fossify.commons.helpers.APP_LAUNCHER_NAME
-import org.fossify.commons.helpers.BaseConfig
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.getActivity
+import com.adika.commons.helpers.APP_ICON_IDS
+import com.adika.commons.helpers.APP_LAUNCHER_NAME
+import com.adika.commons.helpers.BaseConfig
 
 fun Activity.getAppIconIds(): ArrayList<Int> = ArrayList(intent.getIntegerArrayListExtra(APP_ICON_IDS).orEmpty())
 fun Activity.getAppLauncherName(): String = intent.getStringExtra(APP_LAUNCHER_NAME).orEmpty()

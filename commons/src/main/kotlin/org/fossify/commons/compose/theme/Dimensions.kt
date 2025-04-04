@@ -1,9 +1,9 @@
-package org.fossify.commons.compose.theme
+package com.adika.commons.compose.theme
 
 import androidx.compose.runtime.ProvidableCompositionLocal
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.theme.model.Dimensions
+import com.adika.commons.compose.theme.model.Dimensions
 
 internal val CommonDimensions = Dimensions(
     padding = Dimensions.Paddings(

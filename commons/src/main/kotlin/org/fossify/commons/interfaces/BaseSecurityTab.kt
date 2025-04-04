@@ -1,4 +1,4 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
 import android.content.Context
 import android.os.Handler
@@ -8,12 +8,12 @@ import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.os.postDelayed
-import org.fossify.commons.R
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.countdown
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.helpers.DEFAULT_PASSWORD_COUNTDOWN
-import org.fossify.commons.helpers.MAX_PASSWORD_RETRY_COUNT
+import com.adika.commons.R
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.countdown
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.helpers.DEFAULT_PASSWORD_COUNTDOWN
+import com.adika.commons.helpers.MAX_PASSWORD_RETRY_COUNT
 
 abstract class BaseSecurityTab(context: Context, attrs: AttributeSet) : ConstraintLayout(context, attrs), SecurityTab {
 

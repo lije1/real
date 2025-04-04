@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -15,13 +15,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.components.LinkifyTextComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.databinding.DialogTextviewBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.components.LinkifyTextComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.databinding.DialogTextviewBinding
+import com.adika.commons.extensions.*
 
 class AppSideloadedDialog(val activity: Activity, val callback: () -> Unit) {
     private var dialog: AlertDialog? = null

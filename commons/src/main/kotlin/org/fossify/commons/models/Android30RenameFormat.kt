@@ -1,4 +1,4 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 enum class Android30RenameFormat {
     SAF,

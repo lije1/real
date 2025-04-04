@@ -1,20 +1,20 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import org.fossify.commons.extensions.getIntValue
-import org.fossify.commons.extensions.getStringValue
-import org.fossify.commons.models.PhoneNumber
-import org.fossify.commons.models.SimpleContact
-import org.fossify.commons.models.contacts.Contact
+import com.adika.commons.extensions.getIntValue
+import com.adika.commons.extensions.getStringValue
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.SimpleContact
+import com.adika.commons.models.contacts.Contact
 
 // used for sharing privately stored contacts in Simple Contacts with Simple Dialer, Simple SMS Messenger and Simple Calendar Pro
 class MyContactsContentProvider {
     companion object {
-        private const val AUTHORITY = "org.fossify.commons.contactsprovider"
+        private const val AUTHORITY = "com.adika.commons.contactsprovider"
         val CONTACTS_CONTENT_URI = Uri.parse("content://$AUTHORITY/contacts")
 
         const val FAVORITES_ONLY = "favorites_only"
@@ -29,7 +29,7 @@ class MyContactsContentProvider {
         fun getSimpleContacts(context: Context, cursor: Cursor?): ArrayList<SimpleContact> {
             val contacts = ArrayList<SimpleContact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "org.fossify.phone" && packageName != "org.fossify.messages" && packageName != "org.fossify.calendar") {
+            if (packageName != "com.adika.phone" && packageName != "com.adika.messages" && packageName != "com.adika.calendar") {
                 return contacts
             }
 
@@ -65,7 +65,7 @@ class MyContactsContentProvider {
         fun getContacts(context: Context, cursor: Cursor?): ArrayList<Contact> {
             val contacts = ArrayList<Contact>()
             val packageName = context.packageName.removeSuffix(".debug")
-            if (packageName != "org.fossify.phone" && packageName != "org.fossify.messages" && packageName != "org.fossify.calendar") {
+            if (packageName != "com.adika.phone" && packageName != "com.adika.messages" && packageName != "com.adika.calendar") {
                 return contacts
             }
 

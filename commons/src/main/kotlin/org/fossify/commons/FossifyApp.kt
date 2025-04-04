@@ -1,9 +1,9 @@
-package org.fossify.commons
+package com.adika.commons
 
 import android.app.Application
 import androidx.lifecycle.ProcessLifecycleOwner
-import org.fossify.commons.extensions.appLockManager
-import org.fossify.commons.extensions.checkUseEnglish
+import com.adika.commons.extensions.appLockManager
+import com.adika.commons.extensions.checkUseEnglish
 
 open class FossifyApp : Application() {
 

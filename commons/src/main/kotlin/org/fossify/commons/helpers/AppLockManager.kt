@@ -1,9 +1,9 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.app.Application
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
-import org.fossify.commons.compose.extensions.config
+import com.adika.commons.compose.extensions.config
 
 class AppLockManager(
     private val context: Application,

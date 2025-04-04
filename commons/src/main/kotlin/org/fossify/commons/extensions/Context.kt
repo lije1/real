@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -44,11 +44,11 @@ import androidx.loader.content.CursorLoader
 import com.github.ajalt.reprint.core.Reprint
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import org.fossify.commons.R
-import org.fossify.commons.helpers.*
-import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
-import org.fossify.commons.models.AlarmSound
-import org.fossify.commons.models.BlockedNumber
+import com.adika.commons.R
+import com.adika.commons.helpers.*
+import com.adika.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
+import com.adika.commons.models.AlarmSound
+import com.adika.commons.models.BlockedNumber
 import org.joda.time.DateTimeConstants
 import java.io.File
 import java.text.SimpleDateFormat
@@ -280,7 +280,7 @@ fun Context.launchActivityIntent(intent: Intent) {
 
 fun Context.getFilePublicUri(file: File, applicationId: String): Uri {
     // for images/videos/gifs try getting a media content uri first, like content://media/external/images/media/438
-    // if media content uri is null, get our custom uri like content://org.fossify.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg
+    // if media content uri is null, get our custom uri like content://com.adika.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg
     var uri = if (file.isMediaFile()) {
         getMediaContentUri(file.absolutePath)
     } else {
@@ -490,7 +490,7 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
     return mimeType
 }
 
-fun Context.isThankYouInstalled() = isPackageInstalled("org.fossify.thankyou")
+fun Context.isThankYouInstalled() = isPackageInstalled("com.adika.thankyou")
 
 fun Context.canAccessGlobalConfig(): Boolean {
     return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
@@ -509,7 +509,7 @@ fun Context.isOrWasThankYouInstalled(): Boolean {
     }
 }
 
-fun Context.isAProApp() = packageName.startsWith("org.fossify.") && packageName.removeSuffix(".debug").endsWith(".pro")
+fun Context.isAProApp() = packageName.startsWith("com.adika.") && packageName.removeSuffix(".debug").endsWith(".pro")
 
 fun Context.getCustomizeColorsString(): String {
     val textId = if (isOrWasThankYouInstalled()) {
@@ -746,7 +746,7 @@ fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
 
 fun Context.getLaunchIntent() = packageManager.getLaunchIntentForPackage(baseConfig.appId)
 
-fun Context.getCanAppBeUpgraded() = proPackages.contains(baseConfig.appId.removeSuffix(".debug").removePrefix("org.fossify."))
+fun Context.getCanAppBeUpgraded() = proPackages.contains(baseConfig.appId.removeSuffix(".debug").removePrefix("com.adika."))
 
 fun Context.getProUrl() = "https://play.google.com/store/apps/details?id=${baseConfig.appId.removeSuffix(".debug")}.pro"
 
@@ -1041,9 +1041,9 @@ fun Context.getCornerRadius() = resources.getDimension(R.dimen.rounded_corner_ra
 
 // we need the Default Dialer functionality only in Simple Dialer and in Simple Contacts for now
 fun Context.isDefaultDialer(): Boolean {
-    return if (!packageName.startsWith("org.fossify.contacts") && !packageName.startsWith("org.fossify.phone")) {
+    return if (!packageName.startsWith("com.adika.contacts") && !packageName.startsWith("com.adika.phone")) {
         true
-    } else if ((packageName.startsWith("org.fossify.contacts") || packageName.startsWith("org.fossify.phone")) && isQPlus()) {
+    } else if ((packageName.startsWith("com.adika.contacts") || packageName.startsWith("com.adika.phone")) && isQPlus()) {
         val roleManager = getSystemService(RoleManager::class.java)
         roleManager!!.isRoleAvailable(RoleManager.ROLE_DIALER) && roleManager.isRoleHeld(RoleManager.ROLE_DIALER)
     } else {
@@ -1298,13 +1298,13 @@ fun Context.openFullScreenIntentSettings(appId: String) {
 
 fun Context.getDayOfWeekString(dayOfWeek: Int): String {
     val dayOfWeekResId = when (dayOfWeek) {
-        DateTimeConstants.MONDAY -> org.fossify.commons.R.string.monday
-        DateTimeConstants.TUESDAY -> org.fossify.commons.R.string.tuesday
-        DateTimeConstants.WEDNESDAY -> org.fossify.commons.R.string.wednesday
-        DateTimeConstants.THURSDAY -> org.fossify.commons.R.string.thursday
-        DateTimeConstants.FRIDAY -> org.fossify.commons.R.string.friday
-        DateTimeConstants.SATURDAY -> org.fossify.commons.R.string.saturday
-        DateTimeConstants.SUNDAY -> org.fossify.commons.R.string.sunday
+        DateTimeConstants.MONDAY -> com.adika.commons.R.string.monday
+        DateTimeConstants.TUESDAY -> com.adika.commons.R.string.tuesday
+        DateTimeConstants.WEDNESDAY -> com.adika.commons.R.string.wednesday
+        DateTimeConstants.THURSDAY -> com.adika.commons.R.string.thursday
+        DateTimeConstants.FRIDAY -> com.adika.commons.R.string.friday
+        DateTimeConstants.SATURDAY -> com.adika.commons.R.string.saturday
+        DateTimeConstants.SUNDAY -> com.adika.commons.R.string.sunday
         else -> throw IllegalArgumentException("Invalid day: $dayOfWeek")
     }
 

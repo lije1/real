@@ -1,13 +1,13 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.util.TypedValue
 import android.view.Menu
 import android.view.ViewGroup
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.FilepickerFavoriteBinding
-import org.fossify.commons.extensions.getTextSize
-import org.fossify.commons.views.MyRecyclerView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.FilepickerFavoriteBinding
+import com.adika.commons.extensions.getTextSize
+import com.adika.commons.views.MyRecyclerView
 
 class FilepickerFavoritesAdapter(
     activity: BaseSimpleActivity, val paths: List<String>, recyclerView: MyRecyclerView,

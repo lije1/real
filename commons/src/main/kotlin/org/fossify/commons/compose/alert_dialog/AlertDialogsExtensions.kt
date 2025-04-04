@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.alert_dialog
+package com.adika.commons.compose.alert_dialog
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -16,14 +16,14 @@ import androidx.compose.ui.platform.SoftwareKeyboardController
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.android.awaitFrame
-import org.fossify.commons.R
-import org.fossify.commons.compose.theme.LocalTheme
-import org.fossify.commons.compose.theme.Shapes
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.light_grey_stroke
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.helpers.isSPlus
+import com.adika.commons.R
+import com.adika.commons.compose.theme.LocalTheme
+import com.adika.commons.compose.theme.Shapes
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.light_grey_stroke
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.helpers.isSPlus
 
 val dialogContainerColor
     @ReadOnlyComposable

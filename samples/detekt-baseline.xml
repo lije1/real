@@ -16,9 +16,9 @@
     <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$5</ID>
     <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$6</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$appNameId: Int</ID>
-    <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_2_title_commons, org.fossify.commons.R.string.faq_2_text_commons))</ID>
-    <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))</ID>
-    <ID>MaxLineLength:MainActivity.kt$MainActivity$val showMoreApps = onEventValue { !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations) }</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(com.adika.commons.R.string.faq_2_title_commons, com.adika.commons.R.string.faq_2_text_commons))</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(com.adika.commons.R.string.faq_6_title_commons, com.adika.commons.R.string.faq_6_text_commons))</ID>
+    <ID>MaxLineLength:MainActivity.kt$MainActivity$val showMoreApps = onEventValue { !resources.getBoolean(com.adika.commons.R.bool.hide_google_relations) }</ID>
     <ID>MaxLineLength:MainScreen.kt$customTopBar</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$//todo create helper for private fun createFolder(path: String, alertDialog: AlertDialog) to extract bundled logic</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$AddOrEditBlockedNumberAlertDialog(alertDialogState = this, blockedNumber = null, deleteBlockedNumber = {}) {}</ID>
@@ -26,12 +26,12 @@
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$Log.d("getLineColorPickerAlertDialogState", "wasPositivePressed=$wasPositivePressed color=${color.toHex()}")</ID>
     <ID>TooManyFunctions:TestDialogActivity.kt$TestDialogActivity : ComponentActivity</ID>
     <ID>UnusedPrivateMember:MainScreen.kt$@Composable @MyDevices private fun MainScreenPreview()</ID>
-    <ID>WildcardImport:MainActivity.kt$import org.fossify.commons.compose.extensions.*</ID>
-    <ID>WildcardImport:MainActivity.kt$import org.fossify.commons.helpers.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.adika.commons.compose.extensions.*</ID>
+    <ID>WildcardImport:MainActivity.kt$import com.adika.commons.helpers.*</ID>
     <ID>WildcardImport:MainScreen.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:TestDialogActivity.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:TestDialogActivity.kt$import org.fossify.commons.dialogs.*</ID>
-    <ID>WildcardImport:TestDialogActivity.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:TestDialogActivity.kt$import org.fossify.commons.models.*</ID>
+    <ID>WildcardImport:TestDialogActivity.kt$import com.adika.commons.dialogs.*</ID>
+    <ID>WildcardImport:TestDialogActivity.kt$import com.adika.commons.extensions.*</ID>
+    <ID>WildcardImport:TestDialogActivity.kt$import com.adika.commons.models.*</ID>
   </CurrentIssues>
 </SmellBaseline>

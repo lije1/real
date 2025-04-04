@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.content.Context
@@ -27,20 +27,20 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.ShowKeyboardWhenDialogIsOpenedAndRequestFocus
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.components.RadioGroupDialogComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogCustomIntervalPickerBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.DAY_SECONDS
-import org.fossify.commons.helpers.HOUR_SECONDS
-import org.fossify.commons.helpers.MINUTE_SECONDS
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.ShowKeyboardWhenDialogIsOpenedAndRequestFocus
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.components.RadioGroupDialogComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogCustomIntervalPickerBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.DAY_SECONDS
+import com.adika.commons.helpers.HOUR_SECONDS
+import com.adika.commons.helpers.MINUTE_SECONDS
 
 class CustomIntervalPickerDialog(val activity: Activity, val selectedSeconds: Int = 0, val showSeconds: Boolean = false, val callback: (minutes: Int) -> Unit) {
     private var dialog: AlertDialog? = null

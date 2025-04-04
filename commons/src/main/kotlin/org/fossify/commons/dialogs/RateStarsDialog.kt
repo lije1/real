@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
@@ -26,17 +26,17 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.dialogTextColor
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.Shapes
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogRateStarsBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.dialogTextColor
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.Shapes
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogRateStarsBinding
+import com.adika.commons.extensions.*
 
 class RateStarsDialog(val activity: Activity) {
     private var dialog: AlertDialog? = null

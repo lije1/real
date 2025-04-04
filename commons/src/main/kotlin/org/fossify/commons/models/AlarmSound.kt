@@ -1,3 +1,3 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 data class AlarmSound(val id: Int, var title: String, var uri: String)

@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.view.View
@@ -24,21 +24,21 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.dialogTextColor
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.components.RadioGroupDialogComponent
-import org.fossify.commons.compose.extensions.BooleanPreviewParameterProvider
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogRadioGroupBinding
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.onGlobalLayout
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.models.RadioItem
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.dialogTextColor
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.components.RadioGroupDialogComponent
+import com.adika.commons.compose.extensions.BooleanPreviewParameterProvider
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogRadioGroupBinding
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.onGlobalLayout
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.models.RadioItem
 
 class RadioGroupDialog(
     val activity: Activity, val items: ArrayList<RadioItem>, val checkedItemId: Int = -1, val titleId: Int = 0,

@@ -1,12 +1,12 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.platform.LocalContext
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.dialogs.ConfirmationAlertDialog
-import org.fossify.commons.extensions.launchViewIntent
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.dialogs.ConfirmationAlertDialog
+import com.adika.commons.extensions.launchViewIntent
 
 @Composable
 fun FakeVersionCheck() {

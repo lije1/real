@@ -1,4 +1,4 @@
-package org.fossify.commons.models.contacts
+package com.adika.commons.models.contacts
 
 import kotlinx.serialization.Serializable
 

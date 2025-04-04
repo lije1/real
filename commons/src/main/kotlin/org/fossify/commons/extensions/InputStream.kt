@@ -1,8 +1,8 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
-import org.fossify.commons.helpers.MD5
-import org.fossify.commons.helpers.SHA1
-import org.fossify.commons.helpers.SHA256
+import com.adika.commons.helpers.MD5
+import com.adika.commons.helpers.SHA1
+import com.adika.commons.helpers.SHA256
 import java.io.InputStream
 import java.security.MessageDigest
 

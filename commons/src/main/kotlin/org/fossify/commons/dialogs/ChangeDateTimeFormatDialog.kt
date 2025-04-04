@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.format.DateFormat
@@ -20,22 +20,22 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import kotlinx.collections.immutable.toImmutableList
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.components.RadioGroupDialogComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.rememberMutableInteractionSource
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.compose.theme.preferenceLabelColor
-import org.fossify.commons.databinding.DialogChangeDateTimeFormatBinding
-import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
-import org.fossify.commons.helpers.*
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.components.RadioGroupDialogComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.rememberMutableInteractionSource
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.theme.preferenceLabelColor
+import com.adika.commons.databinding.DialogChangeDateTimeFormatBinding
+import com.adika.commons.extensions.baseConfig
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
+import com.adika.commons.helpers.*
 import java.util.Calendar
 import java.util.Locale
 

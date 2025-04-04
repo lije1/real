@@ -1,10 +1,10 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import org.fossify.commons.models.PhoneNumber
-import org.fossify.commons.models.contacts.*
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.contacts.*
 
 class Converters {
     private val gson = Gson()

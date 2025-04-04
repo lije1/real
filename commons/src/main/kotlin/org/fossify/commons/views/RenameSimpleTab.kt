@@ -1,17 +1,17 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.ContentValues
 import android.content.Context
 import android.provider.MediaStore
 import android.util.AttributeSet
 import android.widget.RelativeLayout
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.TabRenameSimpleBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.interfaces.RenameTab
-import org.fossify.commons.models.Android30RenameFormat
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.TabRenameSimpleBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.interfaces.RenameTab
+import com.adika.commons.models.Android30RenameFormat
+import com.adika.commons.models.FileDirItem
 import java.io.File
 
 class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {

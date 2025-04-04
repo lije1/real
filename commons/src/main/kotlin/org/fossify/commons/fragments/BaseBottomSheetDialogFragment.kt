@@ -1,4 +1,4 @@
-package org.fossify.commons.fragments
+package com.adika.commons.fragments
 
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.res.ResourcesCompat
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import org.fossify.commons.R
-import org.fossify.commons.databinding.DialogBottomSheetBinding
-import org.fossify.commons.extensions.*
+import com.adika.commons.R
+import com.adika.commons.databinding.DialogBottomSheetBinding
+import com.adika.commons.extensions.*
 
 abstract class BaseBottomSheetDialogFragment : BottomSheetDialogFragment() {
 

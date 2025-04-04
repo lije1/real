@@ -1,16 +1,16 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.view.LayoutInflater
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.adapters.RenameAdapter
-import org.fossify.commons.databinding.DialogRenameBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.RENAME_PATTERN
-import org.fossify.commons.helpers.RENAME_SIMPLE
-import org.fossify.commons.views.MyViewPager
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.adapters.RenameAdapter
+import com.adika.commons.databinding.DialogRenameBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.RENAME_PATTERN
+import com.adika.commons.helpers.RENAME_SIMPLE
+import com.adika.commons.views.MyViewPager
 
 class RenameDialog(val activity: BaseSimpleActivity, val paths: ArrayList<String>, val useMediaFileExtension: Boolean, val callback: () -> Unit) {
     var dialog: AlertDialog? = null

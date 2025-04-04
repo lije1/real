@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
@@ -8,8 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.SimpleTheme
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.SimpleTheme
 
 @Composable
 fun SettingsGroup(

@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -32,17 +32,17 @@ import androidx.biometric.auth.Class2BiometricAuthPrompt
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
-import org.fossify.commons.databinding.DialogTitleBinding
-import org.fossify.commons.dialogs.*
-import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
-import org.fossify.commons.helpers.*
-import org.fossify.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
-import org.fossify.commons.helpers.MyContentProvider.MY_CONTENT_URI
-import org.fossify.commons.models.*
-import org.fossify.commons.views.MyTextView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
+import com.adika.commons.databinding.DialogTitleBinding
+import com.adika.commons.dialogs.*
+import com.adika.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
+import com.adika.commons.helpers.*
+import com.adika.commons.helpers.MyContentProvider.COL_LAST_UPDATED_TS
+import com.adika.commons.helpers.MyContentProvider.MY_CONTENT_URI
+import com.adika.commons.models.*
+import com.adika.commons.views.MyTextView
 import java.io.*
 import java.util.TreeSet
 
@@ -301,7 +301,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 fun Activity.launchPurchaseThankYouIntent() {
     hideKeyboard()
     try {
-        launchViewIntent("market://details?id=org.fossify.thankyou")
+        launchViewIntent("market://details?id=com.adika.thankyou")
     } catch (ignored: Exception) {
         launchViewIntent(getString(R.string.thank_you_url))
     }
@@ -515,7 +515,7 @@ fun Activity.openPathIntent(
             setDataAndType(newUri, mimeType)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
-            if (applicationId == "org.fossify.gallery" || applicationId == "org.fossify.gallery.debug") {
+            if (applicationId == "com.adika.gallery" || applicationId == "com.adika.gallery.debug") {
                 putExtra(IS_FROM_GALLERY, true)
             }
 
@@ -558,8 +558,8 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
             }
 
             if (isDefaultDialer()) {
-                val packageName = if (baseConfig.appId.contains(".debug", true)) "org.fossify.phone.debug" else "org.fossify.phone"
-                val className = "org.fossify.phone.activities.DialerActivity"
+                val packageName = if (baseConfig.appId.contains(".debug", true)) "com.adika.phone.debug" else "com.adika.phone"
+                val className = "com.adika.phone.activities.DialerActivity"
                 setClassName(packageName, className)
             }
 

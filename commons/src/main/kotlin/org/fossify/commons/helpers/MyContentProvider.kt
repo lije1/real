@@ -1,13 +1,13 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.net.Uri
 
 object MyContentProvider {
-    private const val AUTHORITY = "org.fossify.android.provider"
+    private const val AUTHORITY = "com.adika.android.provider"
     val MY_CONTENT_URI: Uri = Uri.parse("content://$AUTHORITY/settings")
 
-    const val ACTION_GLOBAL_CONFIG_UPDATED = "org.fossify.android.GLOBAL_CONFIG_UPDATED"
-    const val PERMISSION_WRITE_GLOBAL_SETTINGS = "org.fossify.android.permission.WRITE_GLOBAL_SETTINGS"
+    const val ACTION_GLOBAL_CONFIG_UPDATED = "com.adika.android.GLOBAL_CONFIG_UPDATED"
+    const val PERMISSION_WRITE_GLOBAL_SETTINGS = "com.adika.android.permission.WRITE_GLOBAL_SETTINGS"
 
     const val COL_ID = "_id"    // used in Fossify Thank You
     const val COL_THEME_TYPE = "theme_type"

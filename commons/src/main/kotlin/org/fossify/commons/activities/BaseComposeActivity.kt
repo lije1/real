@@ -1,7 +1,7 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import androidx.activity.ComponentActivity
-import org.fossify.commons.helpers.REQUEST_APP_UNLOCK
+import com.adika.commons.helpers.REQUEST_APP_UNLOCK
 
 abstract class BaseComposeActivity : ComponentActivity() {
 

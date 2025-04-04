@@ -1,12 +1,12 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import androidx.appcompat.app.AlertDialog
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.DialogExportBlockedNumbersBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
-import org.fossify.commons.helpers.ensureBackgroundThread
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.DialogExportBlockedNumbersBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.BLOCKED_NUMBERS_EXPORT_EXTENSION
+import com.adika.commons.helpers.ensureBackgroundThread
 import java.io.File
 
 class ExportBlockedNumbersDialog(

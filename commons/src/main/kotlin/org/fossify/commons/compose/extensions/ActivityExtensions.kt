@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import android.app.Activity
 import android.content.ComponentName
@@ -9,10 +9,10 @@ import androidx.activity.ComponentActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import org.fossify.commons.R
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.isOreoMr1Plus
-import org.fossify.commons.models.Release
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.isOreoMr1Plus
+import com.adika.commons.models.Release
 
 fun ComponentActivity.appLaunchedCompose(
     appId: String,
@@ -98,7 +98,7 @@ const val FAKE_VERSION_APP_LABEL =
 fun Context.fakeVersionCheck(
     showConfirmationDialog: () -> Unit
 ) {
-    if (!packageName.startsWith("org.fossify.", true)) {
+    if (!packageName.startsWith("com.adika.", true)) {
         if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
             showConfirmationDialog()
         }

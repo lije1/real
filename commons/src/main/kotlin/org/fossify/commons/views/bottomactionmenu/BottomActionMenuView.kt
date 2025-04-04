@@ -1,4 +1,4 @@
-package org.fossify.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -13,12 +13,12 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.IdRes
 import com.google.android.material.animation.AnimationUtils
-import org.fossify.commons.R
-import org.fossify.commons.extensions.applyColorFilter
-import org.fossify.commons.extensions.beVisibleIf
-import org.fossify.commons.extensions.toast
-import org.fossify.commons.extensions.windowManager
-import org.fossify.commons.helpers.isRPlus
+import com.adika.commons.R
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.beVisibleIf
+import com.adika.commons.extensions.toast
+import com.adika.commons.extensions.windowManager
+import com.adika.commons.helpers.isRPlus
 
 class BottomActionMenuView : LinearLayout {
     companion object {

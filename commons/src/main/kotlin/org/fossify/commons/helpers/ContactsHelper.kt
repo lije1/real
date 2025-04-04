@@ -1,4 +1,4 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.accounts.Account
 import android.accounts.AccountManager
@@ -14,11 +14,11 @@ import android.text.TextUtils
 import android.util.SparseArray
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-import org.fossify.commons.R
-import org.fossify.commons.extensions.*
-import org.fossify.commons.models.PhoneNumber
-import org.fossify.commons.models.contacts.*
-import org.fossify.commons.overloads.times
+import com.adika.commons.R
+import com.adika.commons.extensions.*
+import com.adika.commons.models.PhoneNumber
+import com.adika.commons.models.contacts.*
+import com.adika.commons.overloads.times
 import java.io.OutputStream
 import java.util.Locale
 

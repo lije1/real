@@ -1,16 +1,16 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.app.Activity
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import com.google.android.material.appbar.AppBarLayout
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.databinding.MenuSearchBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.LOWER_ALPHA
-import org.fossify.commons.helpers.MEDIUM_ALPHA
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.databinding.MenuSearchBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.LOWER_ALPHA
+import com.adika.commons.helpers.MEDIUM_ALPHA
 
 class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {
     var isSearchOpen = false

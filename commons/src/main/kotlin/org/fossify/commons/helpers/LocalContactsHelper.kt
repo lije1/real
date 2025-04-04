@@ -1,18 +1,18 @@
-package org.fossify.commons.helpers
+package com.adika.commons.helpers
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import android.net.Uri
 import android.provider.ContactsContract.CommonDataKinds.Event
 import android.provider.MediaStore
-import org.fossify.commons.extensions.contactsDB
-import org.fossify.commons.extensions.getByteArray
-import org.fossify.commons.extensions.getEmptyContact
-import org.fossify.commons.models.SimpleContact
-import org.fossify.commons.models.contacts.Contact
-import org.fossify.commons.models.contacts.Group
-import org.fossify.commons.models.contacts.LocalContact
-import org.fossify.commons.models.contacts.Organization
+import com.adika.commons.extensions.contactsDB
+import com.adika.commons.extensions.getByteArray
+import com.adika.commons.extensions.getEmptyContact
+import com.adika.commons.models.SimpleContact
+import com.adika.commons.models.contacts.Contact
+import com.adika.commons.models.contacts.Group
+import com.adika.commons.models.contacts.LocalContact
+import com.adika.commons.models.contacts.Organization
 
 class LocalContactsHelper(val context: Context) {
     fun getAllContacts(favoritesOnly: Boolean = false): ArrayList<Contact> {

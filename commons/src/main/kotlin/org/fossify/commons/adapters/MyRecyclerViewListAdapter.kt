@@ -1,4 +1,4 @@
-package org.fossify.commons.adapters
+package com.adika.commons.adapters
 
 import android.view.*
 import android.widget.ImageView
@@ -9,12 +9,12 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.*
-import org.fossify.commons.interfaces.MyActionModeCallback
-import org.fossify.commons.models.RecyclerSelectionPayload
-import org.fossify.commons.views.MyRecyclerView
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.interfaces.MyActionModeCallback
+import com.adika.commons.models.RecyclerSelectionPayload
+import com.adika.commons.views.MyRecyclerView
 import kotlin.math.max
 import kotlin.math.min
 

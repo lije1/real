@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import android.text.Html
@@ -31,23 +31,23 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.integration.compose.GlideImage
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.dialogTextColor
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.components.LinkifyTextComponent
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.andThen
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogWritePermissionBinding
-import org.fossify.commons.databinding.DialogWritePermissionOtgBinding
-import org.fossify.commons.extensions.fromHtml
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.humanizePath
-import org.fossify.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.dialogTextColor
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.components.LinkifyTextComponent
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.andThen
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogWritePermissionBinding
+import com.adika.commons.databinding.DialogWritePermissionOtgBinding
+import com.adika.commons.extensions.fromHtml
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.humanizePath
+import com.adika.commons.extensions.setupDialogStuff
 
 class WritePermissionDialog(activity: Activity, val writePermissionDialogMode: WritePermissionDialogMode, val callback: () -> Unit) {
 

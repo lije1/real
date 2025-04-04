@@ -211,7 +211,7 @@
     <string name="global_theme_success">色彩更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
+            請購買 <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
         ]]>
     </string>
     <string name="light_theme">淺色主題</string>
@@ -583,7 +583,7 @@
     <string name="donate_please">
         <![CDATA[
             哈囉 <br><br>
-            希望您喜愛這應用程式。 它不含廣告，所以請購買應用程式 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來支持開發者，這對話框也不會再出現。<br><br>
+            希望您喜愛這應用程式。 它不含廣告，所以請購買應用程式 <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Fossify Thank You</a> 來支持開發者，這對話框也不會再出現。<br><br>
             感謝!
         ]]>
     </string>
@@ -670,7 +670,7 @@
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll（滾動條上字母）</string>
     <string name="event_bus_title">Event Bus（應用程式溝通）</string>
     <string name="audio_record_view_title">Audio Record View (音訊視覺化)</string>
-    <string name="deprecated_app">已捨棄: 這版本的應用程式不再維護，在這取得專業版  https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">已捨棄: 這版本的應用程式不再維護，在這取得專業版  https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">別忘記如果您在2小時內解除安裝任何付費應用程式，將會自動被退款。若您在之後隨時想退款，只要透過 @fossify.org 聯絡我們，即可收到退款。這麼一來輕鬆就能試用了 :)</string>
     <string name="dial_number">撥打電話號碼</string>
     <string name="notifications">通知</string>
@@ -868,12 +868,12 @@
     <string name="june_short">6月</string>
     <string name="july_short">7月</string>
     <string name="other">其他</string>
-    <string name="donate_new">您好，&lt;br&gt;&lt;br&gt;希望您喜歡這個應用程式。它沒有廣告，也不會收集您的資料，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援它的開發。您也將解鎖所有應用程式功能，包括顏色自訂。&lt;br&gt;&lt;br&gt;謝謝您！</string>
-    <string name="donate_short">請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援我們，這也將解鎖所有應用程式功能，包括顏色自訂。</string>
+    <string name="donate_new">您好，&lt;br&gt;&lt;br&gt;希望您喜歡這個應用程式。它沒有廣告，也不會收集您的資料，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援它的開發。您也將解鎖所有應用程式功能，包括顏色自訂。&lt;br&gt;&lt;br&gt;謝謝您！</string>
+    <string name="donate_short">請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援我們，這也將解鎖所有應用程式功能，包括顏色自訂。</string>
     <string name="update_thank_you">請將 Fossify Thank You 更新到最新版本</string>
     <string name="make_sure_upgrade">另請注意，此應用程式版本已不再開發，請取得專業版以獲得許多改進。</string>
     <string name="widget_locked_pro">小工具已鎖定。\n請升級到專業版來解鎖。</string>
-    <string name="features_locked">此功能已鎖定，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來解鎖完整應用程式。&lt;br&gt;&lt;br&gt;這是一次性的付款，如果您不滿意，我們可以退款給您。</string>
+    <string name="features_locked">此功能已鎖定，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Fossify Thank You&lt;/a&gt; 來解鎖完整應用程式。&lt;br&gt;&lt;br&gt;這是一次性的付款，如果您不滿意，我們可以退款給您。</string>
     <string name="faq_9_text_commons">有幾種方法可以做到。第一種是長按一個項目以啟動選取模式，然後點選其他項目來選取它們。第二種類似於在電腦上用滑鼠選擇項目，長按一個項目以啟動選取模式，然後手指不放開拖曳至其他項目上進行選取。第三種方法是先長按一個項目，然後再長按另一個項目，中間的所有內容都會被選取。如果您想選取所有項目，只需長按一個項目，然後點選左上角的已選取項目計數器，即可全選或取消全選。</string>
     <string name="translation">翻譯</string>
     <string name="development">開發</string>

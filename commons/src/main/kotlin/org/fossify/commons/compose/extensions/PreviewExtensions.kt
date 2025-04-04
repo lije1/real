@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.extensions
+package com.adika.commons.compose.extensions
 
 import android.content.res.Configuration
 import androidx.compose.ui.tooling.preview.Devices

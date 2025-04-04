@@ -1,4 +1,4 @@
-package org.fossify.commons.models
+package com.adika.commons.models
 
 import androidx.compose.runtime.Immutable
 import java.io.Serializable

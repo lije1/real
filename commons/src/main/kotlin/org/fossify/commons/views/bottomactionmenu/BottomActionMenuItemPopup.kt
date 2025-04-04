@@ -1,4 +1,4 @@
-package org.fossify.commons.views.bottomactionmenu
+package com.adika.commons.views.bottomactionmenu
 
 import android.content.Context
 import android.graphics.Color
@@ -11,11 +11,11 @@ import android.widget.ListView
 import android.widget.PopupWindow
 import androidx.core.content.ContextCompat
 import androidx.core.widget.PopupWindowCompat
-import org.fossify.commons.R
-import org.fossify.commons.databinding.ItemActionModePopupBinding
-import org.fossify.commons.extensions.applyColorFilter
-import org.fossify.commons.extensions.windowManager
-import org.fossify.commons.helpers.isRPlus
+import com.adika.commons.R
+import com.adika.commons.databinding.ItemActionModePopupBinding
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.windowManager
+import com.adika.commons.helpers.isRPlus
 
 class BottomActionMenuItemPopup(
     private val context: Context,

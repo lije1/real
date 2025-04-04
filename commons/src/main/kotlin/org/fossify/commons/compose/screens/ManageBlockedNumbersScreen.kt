@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.screens
+package com.adika.commons.compose.screens
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.Crossfade
@@ -43,21 +43,21 @@ import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
-import org.fossify.commons.R
-import org.fossify.commons.compose.components.SimpleDropDownMenuItem
-import org.fossify.commons.compose.extensions.*
-import org.fossify.commons.compose.lists.*
-import org.fossify.commons.compose.menus.ActionItem
-import org.fossify.commons.compose.menus.ActionMenu
-import org.fossify.commons.compose.menus.OverflowMode
-import org.fossify.commons.compose.settings.SettingsHorizontalDivider
-import org.fossify.commons.compose.settings.SettingsSwitchComponent
-import org.fossify.commons.compose.system_ui_controller.rememberSystemUiController
-import org.fossify.commons.compose.theme.*
-import org.fossify.commons.compose.theme.model.Theme
-import org.fossify.commons.extensions.darkenColor
-import org.fossify.commons.extensions.getContrastColor
-import org.fossify.commons.models.BlockedNumber
+import com.adika.commons.R
+import com.adika.commons.compose.components.SimpleDropDownMenuItem
+import com.adika.commons.compose.extensions.*
+import com.adika.commons.compose.lists.*
+import com.adika.commons.compose.menus.ActionItem
+import com.adika.commons.compose.menus.ActionMenu
+import com.adika.commons.compose.menus.OverflowMode
+import com.adika.commons.compose.settings.SettingsHorizontalDivider
+import com.adika.commons.compose.settings.SettingsSwitchComponent
+import com.adika.commons.compose.system_ui_controller.rememberSystemUiController
+import com.adika.commons.compose.theme.*
+import com.adika.commons.compose.theme.model.Theme
+import com.adika.commons.extensions.darkenColor
+import com.adika.commons.extensions.getContrastColor
+import com.adika.commons.models.BlockedNumber
 
 private const val CLICK_RESET_TIME = 250L
 private const val RESET_IMMEDIATELY = 1L

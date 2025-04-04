@@ -1,14 +1,14 @@
-package org.fossify.commons.models.contacts
+package com.adika.commons.models.contacts
 
 import android.graphics.Bitmap
 import android.provider.ContactsContract
 import android.telephony.PhoneNumberUtils
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
-import org.fossify.commons.extensions.normalizePhoneNumber
-import org.fossify.commons.extensions.normalizeString
-import org.fossify.commons.helpers.*
-import org.fossify.commons.models.PhoneNumber
+import com.adika.commons.extensions.normalizePhoneNumber
+import com.adika.commons.extensions.normalizeString
+import com.adika.commons.helpers.*
+import com.adika.commons.models.PhoneNumber
 import java.util.Locale
 
 @Serializable

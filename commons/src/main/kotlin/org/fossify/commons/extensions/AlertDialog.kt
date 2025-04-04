@@ -1,4 +1,4 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.view.WindowManager
 import androidx.appcompat.app.AlertDialog

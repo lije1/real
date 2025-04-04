@@ -1,4 +1,4 @@
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.app.Activity
 import androidx.appcompat.app.AlertDialog
@@ -10,13 +10,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.*
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.databinding.DialogMessageBinding
-import org.fossify.commons.extensions.getAlertDialogBuilder
-import org.fossify.commons.extensions.setupDialogStuff
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.*
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.databinding.DialogMessageBinding
+import com.adika.commons.extensions.getAlertDialogBuilder
+import com.adika.commons.extensions.setupDialogStuff
 
 class PermissionRequiredDialog(
     val activity: Activity,

@@ -14,7 +14,7 @@
 
     <issue
         id="NotificationPermission"
-        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission (usage from org.fossify.commons.asynctasks.CopyMoveTask)">
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission (usage from com.adika.commons.asynctasks.CopyMoveTask)">
         <location
             file="src/main/AndroidManifest.xml"/>
     </issue>

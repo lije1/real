@@ -1,11 +1,11 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import org.fossify.commons.extensions.applyColorFilter
-import org.fossify.commons.extensions.getContrastColor
+import com.adika.commons.extensions.applyColorFilter
+import com.adika.commons.extensions.getContrastColor
 
 class MyFloatingActionButton : FloatingActionButton {
     constructor(context: Context) : super(context)

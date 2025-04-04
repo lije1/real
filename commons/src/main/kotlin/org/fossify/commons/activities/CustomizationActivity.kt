@@ -1,26 +1,26 @@
-package org.fossify.commons.activities
+package com.adika.commons.activities
 
 import android.content.ContentValues
 import android.graphics.Color
 import android.os.Bundle
-import org.fossify.commons.R
-import org.fossify.commons.databinding.ActivityCustomizationBinding
-import org.fossify.commons.dialogs.*
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.*
-import org.fossify.commons.helpers.MyContentProvider.COL_ACCENT_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_APP_ICON_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_BACKGROUND_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_PRIMARY_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_TEXT_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_THEME_TYPE
-import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_CUSTOM
-import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_DISABLED
-import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
-import org.fossify.commons.models.GlobalConfig
-import org.fossify.commons.models.MyTheme
-import org.fossify.commons.models.RadioItem
-import org.fossify.commons.models.isGlobalThemingEnabled
+import com.adika.commons.R
+import com.adika.commons.databinding.ActivityCustomizationBinding
+import com.adika.commons.dialogs.*
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.*
+import com.adika.commons.helpers.MyContentProvider.COL_ACCENT_COLOR
+import com.adika.commons.helpers.MyContentProvider.COL_APP_ICON_COLOR
+import com.adika.commons.helpers.MyContentProvider.COL_BACKGROUND_COLOR
+import com.adika.commons.helpers.MyContentProvider.COL_PRIMARY_COLOR
+import com.adika.commons.helpers.MyContentProvider.COL_TEXT_COLOR
+import com.adika.commons.helpers.MyContentProvider.COL_THEME_TYPE
+import com.adika.commons.helpers.MyContentProvider.GLOBAL_THEME_CUSTOM
+import com.adika.commons.helpers.MyContentProvider.GLOBAL_THEME_DISABLED
+import com.adika.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
+import com.adika.commons.models.GlobalConfig
+import com.adika.commons.models.MyTheme
+import com.adika.commons.models.RadioItem
+import com.adika.commons.models.isGlobalThemingEnabled
 
 class CustomizationActivity : BaseSimpleActivity() {
     companion object {
@@ -518,7 +518,7 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun pickPrimaryColor() {
-        if (!packageName.startsWith("org.fossify.", true) && baseConfig.appRunCount > 50) {
+        if (!packageName.startsWith("com.adika.", true) && baseConfig.appRunCount > 50) {
             finish()
             return
         }

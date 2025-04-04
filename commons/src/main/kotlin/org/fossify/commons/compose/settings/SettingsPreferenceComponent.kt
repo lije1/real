@@ -1,4 +1,4 @@
-package org.fossify.commons.compose.settings
+package com.adika.commons.compose.settings
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.combinedClickable
@@ -10,11 +10,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import org.fossify.commons.R
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.preferenceLabelColor
-import org.fossify.commons.compose.theme.preferenceValueColor
+import com.adika.commons.R
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.preferenceLabelColor
+import com.adika.commons.compose.theme.preferenceValueColor
 
 @Composable
 fun SettingsPreferenceComponent(

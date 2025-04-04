@@ -1,10 +1,10 @@
-package org.fossify.commons.models.contacts
+package com.adika.commons.models.contacts
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import org.fossify.commons.models.PhoneNumber
+import com.adika.commons.models.PhoneNumber
 
 @Entity(tableName = "contacts", indices = [(Index(value = ["id"], unique = true))])
 data class LocalContact(

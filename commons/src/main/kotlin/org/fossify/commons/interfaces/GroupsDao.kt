@@ -1,10 +1,10 @@
-package org.fossify.commons.interfaces
+package com.adika.commons.interfaces
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import org.fossify.commons.models.contacts.Group
+import com.adika.commons.models.contacts.Group
 
 @Dao
 interface GroupsDao {

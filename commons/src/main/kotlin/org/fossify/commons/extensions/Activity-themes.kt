@@ -1,9 +1,9 @@
-package org.fossify.commons.extensions
+package com.adika.commons.extensions
 
 import android.app.Activity
 import android.graphics.Color
-import org.fossify.commons.R
-import org.fossify.commons.helpers.DARK_GREY
+import com.adika.commons.R
+import com.adika.commons.helpers.DARK_GREY
 
 fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false) = when {
     isDynamicTheme() -> if (isSystemInDarkMode()) R.style.AppTheme_Base_System else R.style.AppTheme_Base_System_Light

@@ -872,7 +872,7 @@
 \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana.
 \n
 \nSampai jumpa di sana :)</string>
-    <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=com.adika..xxx.pro</string>
     <string name="pro_app_refund">Jangan lupa, jika Anda mencopot aplikasi berbayar apa pun dalam waktu 2 jam, uang Anda akan otomatis dikembalikan. Jika Anda ingin pengembalian dilakukan lain waktu, cukup hubungi hello@fossify.org dan Anda akan mendapatkannya. Itu mempermudah Anda untuk mencobanya terlebih dahulu. :)</string>
     <string name="developer_description">Sekelompok aplikasi Android sumber terbuka sederhana dengan widget yang dapat disesuaikan, tanpa iklan dan perizinan yang tidak diperlukan.</string>
     <string name="email">Surel</string>
@@ -906,14 +906,14 @@
     <string name="app_icon_color_warning">Peringatan: Beberapa peluncur tidak dapat menangani perubahan ikon aplikasi dengan benar. Jika ikon hilang, coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam kasus tertentu, memasang ulang aplikasi dapat dilakukan.</string>
     <string name="shared_theme_note">Diingat bahwa walaupun Anda menggunakan versi aplikasi Pro, Anda masih memerlukan Terima Kasih Fossify karena alasan teknis. Ini menangani sinkroniasi warna.</string>
     <string name="add_number_to_contact">Tambahkan nomor ke kontak</string>
-    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
+    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details?id=com.adika.thankyou&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
     <string name="exif">EXIF</string>
     <string name="default_color">Bawaan</string>
     <string name="august_short">Agu</string>
     <string name="september_short">Sep</string>
     <string name="october_short">Okt</string>
     <string name="november_short">Nov</string>
-    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
+    <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=com.adika.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
     <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat membagikan tentang aplikasi ini atau memberikan masukan dan ulasan yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan.</string>
     <string name="december_short">Des</string>
     <string name="platforms">Platform</string>
@@ -1028,8 +1028,8 @@
     <string name="june_short">Jun</string>
     <string name="july_short">Jul</string>
     <string name="saturday_letter">S</string>
-    <string name="donate_short">Silakan mendukung kami dengan membeli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Terima Kasih Fossify</a>, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
-    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka aplikasi lengkap.&lt;br&gt;&lt;br&gt;Ini merupakan pembayaran satu kali dan jika Anda masih belum puas, kami dapat mengembalikan dana Anda.</string>
+    <string name="donate_short">Silakan mendukung kami dengan membeli <a href="https://play.google.com/store/apps/details?id=com.adika.thankyou">Terima Kasih Fossify</a>, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
+    <string name="features_locked">Fitur ini terkunci, silakan beli &lt;a href=\"https://play.google.com/store/apps/details?id=com.adika.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka aplikasi lengkap.&lt;br&gt;&lt;br&gt;Ini merupakan pembayaran satu kali dan jika Anda masih belum puas, kami dapat mengembalikan dana Anda.</string>
     <string name="notes_short">Catatan</string>
     <string name="donate_to_fossify">Berdonasi ke Fossify</string>
     <string name="little_to_no_fee">Biaya kecil sampai tidak ada</string>
@@ -1053,7 +1053,7 @@
     <string name="translation_ukrainian">Ukraina</string>
     <string name="translation_chinese_tw">Cina (Tradisional)</string>
     <string name="why_upgrade_pro_version">Pro</string>
-    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
+    <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=com.adika.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
     <string name="translation_belarusian">Belarusia</string>
     <string name="translation_central_kurdish">Kurdi Tengah</string>
     <string name="theme_and_colors">Tema dan warna</string>

@@ -1,10 +1,10 @@
-package org.fossify.commons.models.contacts
+package com.adika.commons.models.contacts
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import org.fossify.commons.helpers.FIRST_GROUP_ID
+import com.adika.commons.helpers.FIRST_GROUP_ID
 import java.io.Serializable
 
 @kotlinx.serialization.Serializable

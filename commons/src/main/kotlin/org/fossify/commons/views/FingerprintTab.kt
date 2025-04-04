@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.Intent
@@ -10,12 +10,12 @@ import androidx.biometric.auth.AuthPromptHost
 import com.github.ajalt.reprint.core.AuthenticationFailureReason
 import com.github.ajalt.reprint.core.AuthenticationListener
 import com.github.ajalt.reprint.core.Reprint
-import org.fossify.commons.R
-import org.fossify.commons.databinding.TabFingerprintBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
-import org.fossify.commons.interfaces.HashListener
-import org.fossify.commons.interfaces.SecurityTab
+import com.adika.commons.R
+import com.adika.commons.databinding.TabFingerprintBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.PROTECTION_FINGERPRINT
+import com.adika.commons.interfaces.HashListener
+import com.adika.commons.interfaces.SecurityTab
 
 class FingerprintTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), SecurityTab {
     private val RECHECK_PERIOD = 3000L

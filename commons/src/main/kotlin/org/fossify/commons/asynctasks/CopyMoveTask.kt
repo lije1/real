@@ -1,4 +1,4 @@
-package org.fossify.commons.asynctasks
+package com.adika.commons.asynctasks
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,15 +9,15 @@ import android.provider.MediaStore
 import androidx.core.app.NotificationCompat
 import androidx.core.util.Pair
 import androidx.documentfile.provider.DocumentFile
-import org.fossify.commons.R
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.CONFLICT_KEEP_BOTH
-import org.fossify.commons.helpers.CONFLICT_SKIP
-import org.fossify.commons.helpers.getConflictResolution
-import org.fossify.commons.helpers.isOreoPlus
-import org.fossify.commons.interfaces.CopyMoveListener
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.CONFLICT_KEEP_BOTH
+import com.adika.commons.helpers.CONFLICT_SKIP
+import com.adika.commons.helpers.getConflictResolution
+import com.adika.commons.helpers.isOreoPlus
+import com.adika.commons.interfaces.CopyMoveListener
+import com.adika.commons.models.FileDirItem
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream

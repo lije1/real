@@ -1,27 +1,27 @@
-package org.fossify.commons.samples.activities
+package com.adika.commons.samples.activities
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import org.fossify.commons.activities.BaseSimpleActivity
-import org.fossify.commons.activities.ManageBlockedNumbersActivity
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.*
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.dialogs.ConfirmationDialog
-import org.fossify.commons.dialogs.DonateAlertDialog
-import org.fossify.commons.dialogs.RateStarsAlertDialog
-import org.fossify.commons.extensions.appLaunched
-import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
-import org.fossify.commons.extensions.launchViewIntent
-import org.fossify.commons.helpers.LICENSE_AUTOFITTEXTVIEW
-import org.fossify.commons.models.FAQItem
-import org.fossify.commons.samples.BuildConfig
-import org.fossify.commons.samples.R
-import org.fossify.commons.samples.screens.MainScreen
+import com.adika.commons.activities.BaseSimpleActivity
+import com.adika.commons.activities.ManageBlockedNumbersActivity
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.extensions.*
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.dialogs.ConfirmationDialog
+import com.adika.commons.dialogs.DonateAlertDialog
+import com.adika.commons.dialogs.RateStarsAlertDialog
+import com.adika.commons.extensions.appLaunched
+import com.adika.commons.extensions.launchMoreAppsFromUsIntent
+import com.adika.commons.extensions.launchViewIntent
+import com.adika.commons.helpers.LICENSE_AUTOFITTEXTVIEW
+import com.adika.commons.models.FAQItem
+import com.adika.commons.samples.BuildConfig
+import com.adika.commons.samples.R
+import com.adika.commons.samples.screens.MainScreen
 
 class MainActivity : BaseSimpleActivity() {
 
@@ -31,7 +31,7 @@ class MainActivity : BaseSimpleActivity() {
         enableEdgeToEdgeSimple()
         setContent {
             AppThemeSurface {
-                val showMoreApps = onEventValue { !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations) }
+                val showMoreApps = onEventValue { !resources.getBoolean(com.adika.commons.R.bool.hide_google_relations) }
 
                 MainScreen(
                     openColorCustomization = ::startCustomizationActivity,
@@ -45,7 +45,7 @@ class MainActivity : BaseSimpleActivity() {
                         ConfirmationDialog(
                             this@MainActivity,
                             FAKE_VERSION_APP_LABEL,
-                            positive = org.fossify.commons.R.string.ok,
+                            positive = com.adika.commons.R.string.ok,
                             negative = 0
                         ) {
                             launchViewIntent(DEVELOPER_PLAY_STORE_URL)
@@ -94,14 +94,14 @@ class MainActivity : BaseSimpleActivity() {
         val licenses = LICENSE_AUTOFITTEXTVIEW
 
         val faqItems = arrayListOf(
-            FAQItem(org.fossify.commons.R.string.faq_1_title_commons, org.fossify.commons.R.string.faq_1_text_commons),
-            FAQItem(org.fossify.commons.R.string.faq_1_title_commons, org.fossify.commons.R.string.faq_1_text_commons),
-            FAQItem(org.fossify.commons.R.string.faq_4_title_commons, org.fossify.commons.R.string.faq_4_text_commons)
+            FAQItem(com.adika.commons.R.string.faq_1_title_commons, com.adika.commons.R.string.faq_1_text_commons),
+            FAQItem(com.adika.commons.R.string.faq_1_title_commons, com.adika.commons.R.string.faq_1_text_commons),
+            FAQItem(com.adika.commons.R.string.faq_4_title_commons, com.adika.commons.R.string.faq_4_text_commons)
         )
 
-        if (!resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(org.fossify.commons.R.string.faq_2_title_commons, org.fossify.commons.R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))
+        if (!resources.getBoolean(com.adika.commons.R.bool.hide_google_relations)) {
+            faqItems.add(FAQItem(com.adika.commons.R.string.faq_2_title_commons, com.adika.commons.R.string.faq_2_text_commons))
+            faqItems.add(FAQItem(com.adika.commons.R.string.faq_6_title_commons, com.adika.commons.R.string.faq_6_text_commons))
         }
 
         startAboutActivity(

@@ -1,4 +1,4 @@
-package org.fossify.commons.views
+package com.adika.commons.views
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -14,18 +14,18 @@ import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.view.ViewCompat
 import androidx.core.view.updatePadding
 import androidx.core.widget.TextViewCompat
-import org.fossify.commons.R
-import org.fossify.commons.databinding.ItemBreadcrumbBinding
-import org.fossify.commons.extensions.adjustAlpha
-import org.fossify.commons.extensions.getBasePath
-import org.fossify.commons.extensions.getDialogBackgroundColor
-import org.fossify.commons.extensions.getProperPrimaryColor
-import org.fossify.commons.extensions.getProperTextColor
-import org.fossify.commons.extensions.humanizePath
-import org.fossify.commons.extensions.onGlobalLayout
-import org.fossify.commons.extensions.setDrawablesRelativeWithIntrinsicBounds
-import org.fossify.commons.helpers.MEDIUM_ALPHA
-import org.fossify.commons.models.FileDirItem
+import com.adika.commons.R
+import com.adika.commons.databinding.ItemBreadcrumbBinding
+import com.adika.commons.extensions.adjustAlpha
+import com.adika.commons.extensions.getBasePath
+import com.adika.commons.extensions.getDialogBackgroundColor
+import com.adika.commons.extensions.getProperPrimaryColor
+import com.adika.commons.extensions.getProperTextColor
+import com.adika.commons.extensions.humanizePath
+import com.adika.commons.extensions.onGlobalLayout
+import com.adika.commons.extensions.setDrawablesRelativeWithIntrinsicBounds
+import com.adika.commons.helpers.MEDIUM_ALPHA
+import com.adika.commons.models.FileDirItem
 
 class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(context, attrs) {
     private val inflater =

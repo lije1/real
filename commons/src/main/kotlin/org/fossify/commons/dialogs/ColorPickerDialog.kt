@@ -1,6 +1,6 @@
 @file:SuppressLint("ClickableViewAccessibility")
 
-package org.fossify.commons.dialogs
+package com.adika.commons.dialogs
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -32,18 +32,18 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.view.children
 import androidx.core.view.updateLayoutParams
-import org.fossify.commons.R
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.DialogSurface
-import org.fossify.commons.compose.alert_dialog.dialogBorder
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
-import org.fossify.commons.compose.extensions.MyDevices
-import org.fossify.commons.compose.extensions.config
-import org.fossify.commons.compose.theme.AppThemeSurface
-import org.fossify.commons.compose.theme.SimpleTheme
-import org.fossify.commons.databinding.DialogColorPickerBinding
-import org.fossify.commons.extensions.*
-import org.fossify.commons.helpers.isQPlus
+import com.adika.commons.R
+import com.adika.commons.compose.alert_dialog.AlertDialogState
+import com.adika.commons.compose.alert_dialog.DialogSurface
+import com.adika.commons.compose.alert_dialog.dialogBorder
+import com.adika.commons.compose.alert_dialog.rememberAlertDialogState
+import com.adika.commons.compose.extensions.MyDevices
+import com.adika.commons.compose.extensions.config
+import com.adika.commons.compose.theme.AppThemeSurface
+import com.adika.commons.compose.theme.SimpleTheme
+import com.adika.commons.databinding.DialogColorPickerBinding
+import com.adika.commons.extensions.*
+import com.adika.commons.helpers.isQPlus
 import java.util.LinkedList
 
 private const val RECENT_COLORS_NUMBER = 5
