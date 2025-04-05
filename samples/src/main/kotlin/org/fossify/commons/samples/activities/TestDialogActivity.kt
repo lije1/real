@@ -184,7 +184,7 @@ class TestDialogActivity : ComponentActivity() {
     private fun getUpgradeToProAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
             UpgradeToProAlertDialog(alertDialogState = this, onMoreInfoClick = {
-                launchViewIntent("https://www.contactsmanager.app/upgrade_to_pro")
+                launchViewIntent("https://www.hahuet.com/upgrade_to_pro")
             }, onUpgradeClick = ::launchUpgradeToProIntent)
         }
     }

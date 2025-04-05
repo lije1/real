@@ -43,57 +43,16 @@ class AboutActivity : BaseComposeActivity() {
             val context = LocalContext.current
             val resources = context.resources
             AppThemeSurface {
-                val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
-                val showGithubRelations = showGithubRelations()
-                val showDonationLinks = remember { resources.getBoolean(R.bool.show_donate_in_about) }
-                val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
-                val rateStarsAlertDialogState = getRateStarsAlertDialogState()
-                val onRateUsClickAlertDialogState = getOnRateUsClickAlertDialogState(rateStarsAlertDialogState::show)
+                
+                val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState() 
                 AboutScreen(
                     goBack = ::finish,
-                    helpUsSection = {
-                        HelpUsSection(
-                            onRateUsClick = {
-                                onRateUsClick(
-                                    showConfirmationAdvancedDialog = onRateUsClickAlertDialogState::show,
-                                    showRateStarsDialog = rateStarsAlertDialogState::show
-                                )
-                            },
-                            onInviteClick = ::onInviteClick,
-                            onContributorsClick = ::onContributorsClick,
-                            showDonate = showDonationLinks,
-                            onDonateClick = ::onDonateClick,
-                            showInvite = showGoogleRelations || showGithubRelations,
-                            showRateUs = showGoogleRelations
-                        )
-                    },
-                    aboutSection = {
-                        val setupFAQ = showFAQ()
-                        if (setupFAQ || showGithubRelations) {
-                            AboutSection(
-                                setupFAQ = setupFAQ,
-                                setupKnownIssues = showGithubRelations,
-                                onFAQClick = ::launchFAQActivity,
-                                onKnownIssuesClick = ::launchIssueTracker,
-                                onEmailClick = {
-                                    onEmailClick(onEmailClickAlertDialogState::show)
-                                }
-                            )
-                        }
-                    },
-                    socialSection = {
-                        SocialSection(
-                            onGithubClick = ::onGithubClick,
-                            onRedditClick = ::onRedditClick,
-                            onTelegramClick = ::onTelegramClick
-                        )
-                    }
+                     
+                  
                 ) {
                     val (versionName, packageName) = getPackageInfo()
                     OtherSection(
-                        showMoreApps = showGoogleRelations,
-                        onMoreAppsClick = ::launchMoreAppsFromUsIntent,
-                        onPrivacyPolicyClick = ::onPrivacyPolicyClick,
+                          onPrivacyPolicyClick = ::onPrivacyPolicyClick,
                         onLicenseClick = ::onLicenseClick,
                         versionName = versionName,
                         packageName = packageName,
@@ -206,7 +165,7 @@ class AboutActivity : BaseComposeActivity() {
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
             .removePrefix("com.adika.")
-        val url = "https://www.contactsmanager.app/policy/$appId"
+        val url = "https://www.hahuet.com/policy/$appId"
         launchViewIntent(url)
     }
 
