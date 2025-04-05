@@ -108,14 +108,7 @@ class AboutActivity : BaseComposeActivity() {
         return "https://github.com/FossifyOrg/${intent.getStringExtra(APP_REPOSITORY_NAME)}"
     }
 
-    @Composable
-    private fun showFAQ() =
-        remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
-
-    @Composable
-    private fun showGithubRelations() =
-        remember { !intent.getStringExtra(APP_REPOSITORY_NAME).isNullOrEmpty() }
-
+    
     @Composable
     private fun getPackageInfo(): Pair<String, String> {
         var versionName = remember { intent.getStringExtra(APP_VERSION_NAME) ?: "" }
@@ -128,17 +121,7 @@ class AboutActivity : BaseComposeActivity() {
         return Pair(fullVersion, packageName)
     }
 
-    @Composable
-    private fun getRateStarsAlertDialogState() =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                RateStarsAlertDialog(
-                    alertDialogState = this,
-                    onRating = ::rateStarsRedirectAndThankYou
-                )
-            }
-        }
-
+  
     @Composable
     private fun getOnEmailClickAlertDialogState() =
         rememberAlertDialogState().apply {
@@ -158,26 +141,7 @@ class AboutActivity : BaseComposeActivity() {
                 }
             }
         }
-
-    @Composable
-    private fun getOnRateUsClickAlertDialogState(showRateStarsDialog: () -> Unit) =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                ConfirmationAdvancedAlertDialog(
-                    alertDialogState = this,
-                    message = "${getString(R.string.before_asking_question_read_faq)}\n\n${getString(R.string.make_sure_latest)}",
-                    messageId = null,
-                    positive = R.string.read_faq,
-                    negative = R.string.skip
-                ) { success ->
-                    if (success) {
-                        launchFAQActivity()
-                    } else {
-                        launchRateUsPrompt(showRateStarsDialog)
-                    }
-                }
-            }
-        }
+ 
 
     private fun onEmailClick(
         showConfirmationAdvancedDialog: () -> Unit,
@@ -192,18 +156,7 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun launchFAQActivity() {
-        val faqItems = intent.getSerializableExtra(APP_FAQ) as ArrayList<FAQItem>
-        Intent(applicationContext, FAQActivity::class.java).apply {
-            putExtra(
-                APP_ICON_IDS,
-                intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>()
-            )
-            putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
-            putExtra(APP_FAQ, faqItems)
-            startActivity(this)
-        }
-    }
+ 
 
     private fun launchIssueTracker() {
         launchViewIntent(
@@ -247,65 +200,8 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun onRateUsClick(
-        showConfirmationAdvancedDialog: () -> Unit,
-        showRateStarsDialog: () -> Unit,
-    ) {
-        if (baseConfig.wasBeforeRateShown) {
-            launchRateUsPrompt(showRateStarsDialog)
-        } else {
-            baseConfig.wasBeforeRateShown = true
-            showConfirmationAdvancedDialog()
-        }
-    }
-
-    private fun launchRateUsPrompt(
-        showRateStarsDialog: () -> Unit,
-    ) {
-        if (baseConfig.wasAppRated) {
-            redirectToRateUs()
-        } else {
-            showRateStarsDialog()
-        }
-    }
-
-    private fun onInviteClick() {
-        val storeUrl = when {
-            resources.getBoolean(R.bool.hide_google_relations) -> getGithubUrl()
-            else -> getStoreUrl()
-        }
-
-        val text = String.format(getString(R.string.share_text), appName, storeUrl)
-        Intent().apply {
-            action = ACTION_SEND
-            putExtra(EXTRA_SUBJECT, appName)
-            putExtra(EXTRA_TEXT, text)
-            type = "text/plain"
-            startActivity(createChooser(this, getString(R.string.invite_via)))
-        }
-    }
-
-    private fun onContributorsClick() {
-        val intent = Intent(applicationContext, ContributorsActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun onDonateClick() {
-        startActivity(Intent(applicationContext, DonationActivity::class.java))
-    }
-
-    private fun onGithubClick() {
-        launchViewIntent("https://github.com/FossifyOrg")
-    }
-
-    private fun onRedditClick() {
-        launchViewIntent("https://www.reddit.com/r/Fossify")
-    }
-
-
-    private fun onTelegramClick() {
-        launchViewIntent("https://t.me/Fossify")
-    }
+   
+ 
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
