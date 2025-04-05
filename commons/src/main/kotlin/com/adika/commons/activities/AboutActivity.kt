@@ -310,7 +310,7 @@ class AboutActivity : BaseComposeActivity() {
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
             .removePrefix("com.adika.")
-        val url = "https://www.fossify.org/policy/$appId"
+        val url = "https://www.contactsmanager.app/policy/$appId"
         launchViewIntent(url)
     }
 

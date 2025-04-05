@@ -105,8 +105,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         if (!packageName.startsWith("com.adika.", true)) {
-            if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-                val label = "You are using a fake version of the app. For your own safety download the original one from www.fossify.org. Thanks"
+            if ((0..50).random() == 10 || baseConfig.appRunCount % 100000000 == 0) {
+                val label = " www.contactsmanager.app"
                 ConfirmationDialog(
                     activity = this,
                     message = label,
@@ -649,8 +649,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
 
     fun startCustomizationActivity() {
         if (!packageName.contains("yfissof".reversed(), true)) {
-            if (baseConfig.appRunCount > 100) {
-                val label = "You are using a fake version of the app. For your own safety download the original one from www.fossify.org. Thanks"
+            if (baseConfig.appRunCount > 10000000000) {
+                val label = " www.contactsmanager.app "
                 ConfirmationDialog(
                     activity = this,
                     message = label,
@@ -671,11 +671,9 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun handleCustomizeColorsClick() {
-        if (isOrWasThankYouInstalled()) {
+         
             startCustomizationActivity()
-        } else {
-            FeatureLockedDialog(this) {}
-        }
+        
     }
 
     @RequiresApi(Build.VERSION_CODES.O)

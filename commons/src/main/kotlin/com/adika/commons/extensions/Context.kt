@@ -505,7 +505,7 @@ fun Context.isOrWasThankYouInstalled(): Boolean {
             true
         }
 
-        else -> false
+        else -> true
     }
 }
 
@@ -515,7 +515,7 @@ fun Context.getCustomizeColorsString(): String {
     val textId = if (isOrWasThankYouInstalled()) {
         R.string.customize_colors
     } else {
-        R.string.customize_colors_locked
+         R.string.customize_colors
     }
 
     return getString(textId)
@@ -525,7 +525,7 @@ fun Context.addLockedLabelIfNeeded(stringId: Int): String {
     return if (isOrWasThankYouInstalled()) {
         getString(stringId)
     } else {
-        "${getString(stringId)} (${getString(R.string.feature_locked)})"
+       getString(stringId)
     }
 }
 

@@ -96,9 +96,9 @@ fun Activity.appLaunched(appId: String) {
 
 fun Activity.showDonateOrUpgradeDialog() {
     if (getCanAppBeUpgraded()) {
-        UpgradeToProDialog(this)
+      //  UpgradeToProDialog(this)
     } else if (!isOrWasThankYouInstalled()) {
-        DonateDialog(this)
+       // DonateDialog(this)
     }
 }
 
