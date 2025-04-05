@@ -88,12 +88,12 @@ fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion:
 }
 
 fun ComponentActivity.upgradeToPro() {
-    launchViewIntent("https://www.contactsmanager.app/upgrade_to_pro")
+    launchViewIntent("https://www.hahuet.com/upgrade_to_pro")
 }
 
-const val DEVELOPER_PLAY_STORE_URL = "https://www.contactsmanager.app"
+const val DEVELOPER_PLAY_STORE_URL = "https://www.hahuet.com"
 const val FAKE_VERSION_APP_LABEL =
-    "https://www.contactsmanager.app"
+    "https://www.hahuet.com"
 
 fun Context.fakeVersionCheck(
     showConfirmationDialog: () -> Unit

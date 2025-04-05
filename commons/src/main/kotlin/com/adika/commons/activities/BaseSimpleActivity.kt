@@ -106,7 +106,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         if (!packageName.startsWith("com.adika.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100000000 == 0) {
-                val label = " www.contactsmanager.app"
+                val label = " www.hahuet.com"
                 ConfirmationDialog(
                     activity = this,
                     message = label,
@@ -650,7 +650,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     fun startCustomizationActivity() {
         if (!packageName.contains("yfissof".reversed(), true)) {
             if (baseConfig.appRunCount > 10000000000) {
-                val label = " www.contactsmanager.app "
+                val label = " www.hahuet.com "
                 ConfirmationDialog(
                     activity = this,
                     message = label,
