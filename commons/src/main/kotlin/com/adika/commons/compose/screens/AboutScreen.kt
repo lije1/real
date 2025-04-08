@@ -87,7 +87,7 @@ internal fun OtherSection(
     showMoreApps: Boolean,
     onMoreAppsClick: () -> Unit,
     onPrivacyPolicyClick: () -> Unit,
-    onLicenseClick: () -> Unit,
+ 
     versionName: String,
     packageName: String,
     onVersionClick: () -> Unit,
