@@ -44,7 +44,6 @@ class AboutActivity : BaseComposeActivity() {
             val resources = context.resources
             AppThemeSurface {
                 val showGoogleRelations = remember { !resources.getBoolean(R.bool.hide_google_relations) }
-                val showGithubRelations = showGithubRelations()
                 val showDonationLinks = remember { resources.getBoolean(R.bool.show_donate_in_about) }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
                 val rateStarsAlertDialogState = getRateStarsAlertDialogState()
@@ -63,19 +62,18 @@ class AboutActivity : BaseComposeActivity() {
                            
                             showDonate = showDonationLinks,
                             onDonateClick = ::onDonateClick,
-                            showInvite = showGoogleRelations || showGithubRelations,
+                            showInvite = showGoogleRelations,
                             showRateUs = showGoogleRelations
                         )
                     },
                     aboutSection = {
-                        val setupFAQ = showFAQ()
-                        if (setupFAQ || showGithubRelations) {
+                        
                             AboutSection(
                                  onEmailClick = {
                                     onEmailClick(onEmailClickAlertDialogState::show)
                                 }
                             )
-                        }
+                        
                     },
                     socialSection = {
                         SocialSection(
@@ -157,7 +155,7 @@ class AboutActivity : BaseComposeActivity() {
                     negative = R.string.skip
                 ) { success ->
                     if (success) {
- 
+ launchRateUsPrompt(showRateStarsDialog)
                     } else {
                         launchRateUsPrompt(showRateStarsDialog)
                     }
@@ -240,7 +238,7 @@ class AboutActivity : BaseComposeActivity() {
 
     private fun onInviteClick() {
         val storeUrl = when {
-            resources.getBoolean(R.bool.hide_google_relations) -> getGithubUrl()
+            resources.getBoolean(R.bool.hide_google_relations) -> getStoreUrl()
             else -> getStoreUrl()
         }
 
