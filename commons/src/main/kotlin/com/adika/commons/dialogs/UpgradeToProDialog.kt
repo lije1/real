@@ -53,7 +53,7 @@ class UpgradeToProDialog(val activity: Activity) {
     }
 
     private fun moreInfo() {
-        activity.launchViewIntent("https://www.hahuet.com/upgrade_to_pro")
+        activity.launchViewIntent("https://www.contactsmanager.app/upgrade_to_pro")
     }
 }
 

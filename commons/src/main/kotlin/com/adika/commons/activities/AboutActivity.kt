@@ -304,13 +304,13 @@ class AboutActivity : BaseComposeActivity() {
 
 
     private fun onTelegramClick() {
-        launchViewIntent("https://t.me/Fossify")
+        launchViewIntent("https://t.me/adikaapps")
     }
 
     private fun onPrivacyPolicyClick() {
         val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
             .removePrefix("com.adika.")
-        val url = "https://hahuet.com/privacy-policy-contacts-copy/"
+        val url = "https://contactsmanager.app/privacy-policy-contacts/"
         launchViewIntent(url)
     }
 
