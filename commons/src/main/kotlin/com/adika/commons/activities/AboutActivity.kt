@@ -60,7 +60,7 @@ class AboutActivity : BaseComposeActivity() {
                                 )
                             },
                             onInviteClick = ::onInviteClick,
-                            onContributorsClick = ::onContributorsClick,
+                           
                             showDonate = showDonationLinks,
                             onDonateClick = ::onDonateClick,
                             showInvite = showGoogleRelations || showGithubRelations,
@@ -83,8 +83,8 @@ class AboutActivity : BaseComposeActivity() {
                     },
                     socialSection = {
                         SocialSection(
-                            onGithubClick = ::onGithubClick,
-                            onRedditClick = ::onRedditClick,
+                             
+                         
                             onTelegramClick = ::onTelegramClick
                         )
                     }
@@ -192,18 +192,7 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun launchFAQActivity() {
-        val faqItems = intent.getSerializableExtra(APP_FAQ) as ArrayList<FAQItem>
-        Intent(applicationContext, FAQActivity::class.java).apply {
-            putExtra(
-                APP_ICON_IDS,
-                intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>()
-            )
-            putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
-            putExtra(APP_FAQ, faqItems)
-            startActivity(this)
-        }
-    }
+     
 
     private fun launchIssueTracker() {
         launchViewIntent(
@@ -285,22 +274,15 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun onContributorsClick() {
-        val intent = Intent(applicationContext, ContributorsActivity::class.java)
-        startActivity(intent)
-    }
+   
 
     private fun onDonateClick() {
         startActivity(Intent(applicationContext, DonationActivity::class.java))
     }
 
-    private fun onGithubClick() {
-        launchViewIntent("https://github.com/FossifyOrg")
-    }
+   
 
-    private fun onRedditClick() {
-        launchViewIntent("https://www.reddit.com/r/Fossify")
-    }
+   
 
 
     private fun onTelegramClick() {
