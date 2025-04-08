@@ -235,7 +235,7 @@ private fun AboutScreenPreview() {
                 showMoreApps = true,
                 onMoreAppsClick = {},
                 onPrivacyPolicyClick = {},
-                onLicenseClick = {},
+ 
                 versionName = "5.0.4",
                 packageName = "com.adika.commons.samples",
                 onVersionClick = {}
