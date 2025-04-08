@@ -290,18 +290,7 @@ class AboutActivity : BaseComposeActivity() {
         val url = "https://contactsmanager.app/privacy-policy-contacts/"
         launchViewIntent(url)
     }
-
-    private fun onLicenseClick() {
-        Intent(applicationContext, LicenseActivity::class.java).apply {
-            putExtra(
-                APP_ICON_IDS,
-                intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>()
-            )
-            putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
-            putExtra(APP_LICENSES, intent.getLongExtra(APP_LICENSES, 0))
-            startActivity(this)
-        }
-    }
+ 
 
     private fun onVersionClick() {
         if (firstVersionClickTS == 0L) {

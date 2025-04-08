@@ -640,7 +640,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
             putExtra(APP_LICENSES, licenseMask)
             putExtra(APP_VERSION_NAME, versionName)
             putExtra(APP_PACKAGE_NAME, baseConfig.appId)
-            putExtra(APP_FAQ, faqItems)
+           
             putExtra(SHOW_FAQ_BEFORE_MAIL, showFAQBeforeMail)
             startActivity(this)
         }
