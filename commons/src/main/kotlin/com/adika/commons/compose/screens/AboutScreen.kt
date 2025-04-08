@@ -40,7 +40,7 @@ internal fun AboutScreen(
 internal fun HelpUsSection(
     onRateUsClick: () -> Unit,
     onInviteClick: () -> Unit,
-    onContributorsClick: () -> Unit,
+  
     showRateUs: Boolean,
     showInvite: Boolean,
     showDonate: Boolean,
@@ -68,11 +68,7 @@ internal fun HelpUsSection(
             )
         }
 
-        TwoLinerTextItem(
-            click = onContributorsClick,
-            text = stringResource(id = R.string.contributors),
-            icon = R.drawable.ic_groups_outline_vector
-        )
+      
 
         if (showDonate) {
             TwoLinerTextItem(
@@ -175,8 +171,8 @@ internal fun AboutSection(
 
 @Composable
 internal fun SocialSection(
-    onGithubClick: () -> Unit,
-    onRedditClick: () -> Unit,
+     
+     
     onTelegramClick: () -> Unit,
 ) {
     SettingsGroup(title = {
@@ -185,17 +181,8 @@ internal fun SocialSection(
             modifier = titleStartPadding
         )
     }) {
-        SocialText(
-            click = onGithubClick,
-            text = stringResource(id = R.string.github),
-            icon = R.drawable.ic_github_vector,
-            tint = SimpleTheme.colorScheme.onSurface
-        )
-        SocialText(
-            click = onRedditClick,
-            text = stringResource(id = R.string.reddit),
-            icon = R.drawable.ic_reddit_vector,
-        )
+         
+       
         SocialText(
             click = onTelegramClick,
             text = stringResource(id = R.string.telegram),
@@ -245,7 +232,7 @@ private fun AboutScreenPreview() {
                 HelpUsSection(
                     onRateUsClick = {},
                     onInviteClick = {},
-                    onContributorsClick = {},
+                    
                     showRateUs = true,
                     showInvite = true,
                     showDonate = true,
@@ -262,8 +249,8 @@ private fun AboutScreenPreview() {
             },
             socialSection = {
                 SocialSection(
-                    onGithubClick = {},
-                    onRedditClick = {},
+                     
+                     
                     onTelegramClick = {}
                 )
             }

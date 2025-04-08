@@ -629,7 +629,6 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         appNameId: Int,
         licenseMask: Long,
         versionName: String,
-        faqItems: ArrayList<FAQItem>,
         showFAQBeforeMail: Boolean
     ) {
         hideKeyboard()

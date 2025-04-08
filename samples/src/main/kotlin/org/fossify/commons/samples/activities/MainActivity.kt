@@ -108,7 +108,7 @@ class MainActivity : BaseSimpleActivity() {
             appNameId = R.string.commons_app_name,
             licenseMask = licenses,
             versionName = BuildConfig.VERSION_NAME,
-            faqItems = faqItems,
+           
             showFAQBeforeMail = true,
         )
     }
