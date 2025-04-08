@@ -71,11 +71,7 @@ class AboutActivity : BaseComposeActivity() {
                         val setupFAQ = showFAQ()
                         if (setupFAQ || showGithubRelations) {
                             AboutSection(
-                                setupFAQ = setupFAQ,
-                                setupKnownIssues = showGithubRelations,
-                                onFAQClick = ::launchFAQActivity,
-                                onKnownIssuesClick = ::launchIssueTracker,
-                                onEmailClick = {
+                                 onEmailClick = {
                                     onEmailClick(onEmailClickAlertDialogState::show)
                                 }
                             )
@@ -94,7 +90,6 @@ class AboutActivity : BaseComposeActivity() {
                         showMoreApps = showGoogleRelations,
                         onMoreAppsClick = ::launchMoreAppsFromUsIntent,
                         onPrivacyPolicyClick = ::onPrivacyPolicyClick,
-                        onLicenseClick = ::onLicenseClick,
                         versionName = versionName,
                         packageName = packageName,
                         onVersionClick = ::onVersionClick
@@ -151,7 +146,7 @@ class AboutActivity : BaseComposeActivity() {
                     negative = R.string.skip
                 ) { success ->
                     if (success) {
-                        launchFAQActivity()
+                        
                     } else {
                         launchEmailIntent()
                     }
@@ -171,7 +166,7 @@ class AboutActivity : BaseComposeActivity() {
                     negative = R.string.skip
                 ) { success ->
                     if (success) {
-                        launchFAQActivity()
+ 
                     } else {
                         launchRateUsPrompt(showRateStarsDialog)
                     }
