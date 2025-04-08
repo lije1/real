@@ -99,18 +99,9 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-    private fun getGithubUrl(): String {
-        return "https://github.com/FossifyOrg/${intent.getStringExtra(APP_REPOSITORY_NAME)}"
-    }
+  
 
-    @Composable
-    private fun showFAQ() =
-        remember { !(intent.getSerializableExtra(APP_FAQ) as? ArrayList<FAQItem>).isNullOrEmpty() }
-
-    @Composable
-    private fun showGithubRelations() =
-        remember { !intent.getStringExtra(APP_REPOSITORY_NAME).isNullOrEmpty() }
-
+ 
     @Composable
     private fun getPackageInfo(): Pair<String, String> {
         var versionName = remember { intent.getStringExtra(APP_VERSION_NAME) ?: "" }
@@ -187,13 +178,7 @@ class AboutActivity : BaseComposeActivity() {
         }
     }
 
-     
-
-    private fun launchIssueTracker() {
-        launchViewIntent(
-            "${getGithubUrl()}/issues?q=is:open+is:issue+label:bug"
-        )
-    }
+ 
 
     private fun launchEmailIntent() {
         val appVersion = getString(R.string.app_version, intent.getStringExtra(APP_VERSION_NAME))
