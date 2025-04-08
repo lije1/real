@@ -111,11 +111,7 @@ internal fun OtherSection(
             text = stringResource(id = R.string.privacy_policy),
             icon = R.drawable.ic_policy_outline_vector
         )
-        TwoLinerTextItem(
-            click = onLicenseClick,
-            text = stringResource(id = R.string.third_party_licences),
-            icon = R.drawable.ic_article_outline_vector
-        )
+ 
         SettingsListItem(
             tint = SimpleTheme.colorScheme.onSurface,
             click = onVersionClick,
@@ -132,10 +128,7 @@ internal fun OtherSection(
 
 @Composable
 internal fun AboutSection(
-    setupFAQ: Boolean,
-    setupKnownIssues: Boolean,
-    onFAQClick: () -> Unit,
-    onKnownIssuesClick: () -> Unit,
+     
     onEmailClick: () -> Unit,
 ) {
     SettingsGroup(title = {
@@ -144,21 +137,8 @@ internal fun AboutSection(
             modifier = titleStartPadding
         )
     }) {
-        if (setupFAQ) {
-            TwoLinerTextItem(
-                click = onFAQClick,
-                text = stringResource(id = R.string.frequently_asked_questions),
-                icon = R.drawable.ic_help_outline_vector
-            )
-        }
-
-        if (setupKnownIssues) {
-            TwoLinerTextItem(
-                click = onKnownIssuesClick,
-                text = stringResource(R.string.known_issues),
-                icon = R.drawable.ic_bug_report_outline_vector
-            )
-        }
+        
+     
 
         TwoLinerTextItem(
             click = onEmailClick,
@@ -240,11 +220,7 @@ private fun AboutScreenPreview() {
                 )
             },
             aboutSection = {
-                AboutSection(
-                    setupFAQ = true,
-                    setupKnownIssues = true,
-                    onFAQClick = {},
-                    onKnownIssuesClick = {},
+                AboutSection(  
                     onEmailClick = {})
             },
             socialSection = {
